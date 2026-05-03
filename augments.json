@@ -3,7 +3,7 @@
         "id": 93,
         "vn_name": "Giãn Gân Cốt",
         "en_name": "Warmup Routine",
-        "desc": "Nhận Phép Bổ Trợ <spellName>Giãn Gân Cốt</spellName>.<br><br><rules><spellName>Giãn Gân Cốt:</spellName> Vận dụng vũ đạo ẩn giấu trong bạn để tăng sát thương đến hết vòng đấu.</rules>"
+        "desc": "Nhận Phép Bổ Trợ <spellName>Giãn Gân Cốt</spellName>.<br><br>Vận dụng vũ đạo ẩn giấu trong bạn để tăng 2% sát thương mỗi giây, tối đa @MaxStacks@%."
     },
     {
         "id": 89,
@@ -12,16 +12,28 @@
         "desc": "Nhận Phép Bổ Trợ <spellName>Tan Biến</spellName>.<br><br><rules><spellName>Tan Biến</spellName> cho phép bạn <keywordStealth>Tàng Hình</keywordStealth>.</rules>"
     },
     {
+        "id": 359,
+        "vn_name": "Cừu Cứu Sinh",
+        "en_name": "Lamb's Respite",
+        "desc": "Nhận thêm @RevivesToGain@ lần hồi sinh và giảm một nửa thời gian hồi sinh."
+    },
+    {
         "id": 166,
         "vn_name": "Điện Lan",
         "en_name": "Chain Lightning",
-        "desc": "Gây sát thương lên một kẻ địch cũng sẽ khiến đồng minh của kẻ đó nhận <trueDamage>sát thương chuẩn tương đương @DamageMod*100@% sát thương gây ra</trueDamage> nếu chúng ở gần."
+        "desc": "Gây sát thương lên mục tiêu cũng sẽ gây lên kẻ địch gần nhất một lượng <trueDamage>sát thương chuẩn bằng @DamageMod*100@% sát thương đã gây ra</trueDamage>."
     },
     {
         "id": 323,
         "vn_name": "Địa Ngục Khuyển",
         "en_name": "Cerberus",
         "desc": "Nhận Ngọc Siêu Cấp <spellName>Mưa Kiếm</spellName> và <spellName>Sẵn Sàng Tấn Công</spellName>."
+    },
+    {
+        "id": 340,
+        "vn_name": "Nhận 1 Gói Trang Bị Chỉ Số Kim Cương",
+        "en_name": "Gain a Prismatic Stat Anvil",
+        "desc": "Nhận 1 <keywordMajor>%i:StatAnvil% Gói Trang Bị Chỉ Số Kim Cương</keywordMajor>."
     },
     {
         "id": 87,
@@ -33,13 +45,13 @@
         "id": 108,
         "vn_name": "Tự Hủy",
         "en_name": "Self Destruct",
-        "desc": "Bắt đầu mỗi vòng đấu với một quả bom gắn bên mình. Sau @BombDelay@ giây, nó phát nổ, gây <trueDamage>sát thương chuẩn cực lớn</trueDamage> và <status>Hất Tung</status> kẻ địch xung quanh.<br>"
+        "desc": "Mỗi @BombDelay@ giây <keywordMajor>Thi Triển Tự Động</keywordMajor>, gắn một quả bom lên bản thân, nó phát nổ, gây <trueDamage>sát thương chuẩn cực lớn</trueDamage> và <status>Hất Tung</status> kẻ địch xung quanh."
     },
     {
         "id": 120,
         "vn_name": "Trở Về Từ Cõi Chết",
         "en_name": "Serve Beyond Death",
-        "desc": "Lần đầu tiên hy sinh mỗi vòng đấu, bạn trở lại với đầy Máu nhưng Máu giảm dần trong @DecayDuration@ giây. Tham gia hạ gục tướng địch khi Máu đang giảm sẽ dừng nó lại, đồng thời đặt Máu của bạn thành <healing>@TriumphPercent@% Máu tối đa</healing>."
+        "desc": "Lần đầu tiên hy sinh mỗi vòng đấu, bạn trở lại với <scaleHealth>đầy Máu</scaleHealth> nhưng Máu <status>giảm dần</status> theo thời gian. <br><br><keywordMajor>Tham gia hạ gục</keywordMajor> tướng địch khi Máu đang <status>giảm dần</status> sẽ khiến Máu ngừng <status>giảm</status>."
     },
     {
         "id": 327,
@@ -51,7 +63,7 @@
         "id": 66,
         "vn_name": "Điện Toán Lượng Tử",
         "en_name": "Quantum Computing",
-        "desc": "Định kỳ <keywordMajor>Thi Triển Tự Động</keywordMajor> một nhát chém diện rộng quanh bản thân, gây <physicalDamage>sát thương vật lý</physicalDamage>. Kẻ địch trúng phần rìa ngoài bị <status>Làm Chậm</status>, nhận thêm <physicalDamage>sát thương vật lý theo Máu tối đa</physicalDamage> và bạn hồi máu theo phần trăm sát thương cộng thêm."
+        "desc": "Định kỳ <keywordMajor>Thi Triển Tự Động</keywordMajor> một nhát chém diện rộng quanh bản thân, gây <physicalDamage>sát thương vật lý</physicalDamage>. <br><br>Kẻ địch trúng rìa nhát chém sẽ bị <status>Làm Chậm</status>, chịu thêm <physicalDamage>sát thương</physicalDamage> và <healing>hồi máu</healing> cho bạn."
     },
     {
         "id": 23,
@@ -63,19 +75,19 @@
         "id": 21,
         "vn_name": "Thủ Hộ",
         "en_name": "Defensive Maneuvers",
-        "desc": "Nhận Phép Bổ Trợ <spellName>Thủ Hộ</spellName>.<br><br><rules><spellName>Thủ Hộ</spellName> Sử dụng Phép Bổ Trợ <spellName>Lá Chắn</spellName> và <spellName>Hồi Máu</spellName> lên bạn và đồng đội.</rules>"
+        "desc": "Nhận Phép Bổ Trợ <spellName>Thủ Hộ</spellName>.<br><br><rules><spellName>Thủ Hộ</spellName> Thi triển Phép Bổ Trợ <spellName>Lá Chắn</spellName> và <spellName>Hồi Máu</spellName> lên đội của bạn.</rules>"
     },
     {
         "id": 243,
         "vn_name": "Chuyển Đổi: Hỗn Loạn",
         "en_name": "Transmute: Chaos",
-        "desc": "Nhận 2 Nâng Cấp ngẫu nhiên."
+        "desc": "Nhận <keywordMajor>@AugmentsToGrantToolTipOnly@ %i:Augment%Nâng Cấp</keywordMajor> ngẫu nhiên."
     },
     {
         "id": 14,
         "vn_name": "Quá Giang",
         "en_name": "Chauffeur",
-        "desc": "Bạn sẽ bám vào đồng đội và không thể tự di chuyển. <speed>Tốc Độ Di Chuyển cộng thêm</speed> của bạn cũng sẽ được chuyển cho đồng đội và bạn nhận thêm Điểm Hồi Kỹ Năng và <attackSpeed>Tốc Độ Đánh</attackSpeed>."
+        "desc": "Bạn sẽ bám vào đồng đội và không thể tự di chuyển. <br><br><speed>Tốc Độ Di Chuyển cộng thêm</speed> của bạn cũng sẽ được chuyển cho đồng đội và bạn nhận thêm <scaleAbilityHaste>Điểm Hồi Kỹ Năng</scaleAbilityHaste> và <attackSpeed>Tốc Độ Đánh</attackSpeed>."
     },
     {
         "id": 129,
@@ -87,13 +99,13 @@
         "id": 231,
         "vn_name": "Ánh Sáng Hộ Vệ",
         "en_name": "Light Warden",
-        "desc": "Sau mỗi vài giây, <keywordMajor>Tự Động Thi Triển</keywordMajor> một ánh sáng bảo hộ về phía đồng minh, <shield>Tạo Lá Chắn</shield> cho bản thân và những đồng đội nó đi qua. Sau đó nó vòng về, lặp lại các hiệu ứng."
+        "desc": "Sau mỗi vài giây, <keywordMajor>Thi Triển Tự Động</keywordMajor> một ánh sáng bảo hộ, <shield>Tạo Lá Chắn</shield> cho bản thân và những đồng đội nó đi qua trước khi trở về, lặp lại hiệu ứng một lần nữa."
     },
     {
         "id": 318,
         "vn_name": "Nhiệm Vụ: Chúa Mũ",
         "en_name": "Quest: Mad Hatter",
-        "desc": "Yêu Cầu: Đội @QuestThreshold@ mũ vào cuối giao tranh.<br><br>Phần Thưởng: Nhận <scaleAF>@AFPerHat@ Sức Mạnh Thích Ứng</scaleAF>, @ArmorMRPerHat@ <scaleArmor>Giáp</scaleArmor> và <scaleMR>Kháng Phép</scaleMR>, @TenacityPerHat*100@% Kháng Hiệu Ứng và <speed>@MSPerHat@ Tốc Độ Di Chuyển</speed> với mỗi mũ đang mang.<br><br><rules>Mất một nửa số mũ của bạn khi thua vòng đấu.</rules>"
+        "desc": "Yêu cầu: Đội @QuestThreshold@ mũ vào cuối giao tranh.<br><br>Phần thưởng: Nhận <scaleAF>Sức Mạnh Thích Ứng</scaleAF>, <scaleArmor>Giáp</scaleArmor>, <scaleMR>Kháng Phép</scaleMR>, <scaleTenacity>Kháng Hiệu Ứng</scaleTenacity> và <speed>Tốc Độ Di Chuyển</speed> với mỗi chiếc mũ."
     },
     {
         "id": 6,
@@ -105,25 +117,25 @@
         "id": 94,
         "vn_name": "Sẵn Lòng Hy Sinh",
         "en_name": "Willing Sacrifice",
-        "desc": "Khi đồng minh còn dưới <scaleHealth>@AllyHealthThreshold*100@% Máu</scaleHealth>, đánh đổi một phần máu của bạn để tạo <shield>Lá Chắn</shield> cho đồng minh."
+        "desc": "Khi một tướng đồng minh còn dưới <scaleHealth>@AllyHealthThreshold*100@% Máu</scaleHealth>, đánh đổi một phần máu của bạn để tạo <shield>Lá Chắn</shield> cho họ."
     },
     {
         "id": 308,
         "vn_name": "Lửa Hồ Ly",
         "en_name": "Firefox",
-        "desc": "<keywordMajor>Thi Triển Tự Động</keywordMajor><br>Nhận thêm tốc độ di chuyển và tạo ra ba ngọn lửa xoay tròn quanh bạn, lửa sẽ tấn công kẻ địch gần nhất có thể nhìn thấy trong phạm vi và gây sát thương thích ứng."
+        "desc": "<keywordMajor>Thi Triển Tự Động</keywordMajor><br>Nhận thêm <speed>Tốc Độ Di Chuyển</speed> và tạo ra 3 ngọn lửa xoay tròn quanh bạn, lửa sẽ tấn công kẻ địch gần nhất có thể nhìn thấy trong phạm vi và gây <magicDamage>sát thương phép</magicDamage>."
     },
     {
         "id": 223,
         "vn_name": "Cách Mạng Phép Bổ Trợ",
         "en_name": "Summoner Revolution",
-        "desc": "Các Phép Bổ Trợ của bạn nhận thêm 1 lượt tích trữ. <br><br>Ngoài ra, Tốc Biến sẽ hồi lại sau mỗi vòng."
+        "desc": "Các <keywordMajor>Phép Bổ Trợ</keywordMajor> của bạn nhận thêm @BonusCharges@ lượt tích trữ. <br><br><spellName>Tốc Biến</spellName> sẽ hồi lại sau mỗi vòng."
     },
     {
         "id": 44,
         "vn_name": "Băng Lạnh",
         "en_name": "Ice Cold",
-        "desc": "Các hiệu ứng <status>Làm Chậm</status> giảm thêm 100 <speed>Tốc Độ Di Chuyển</speed>."
+        "desc": "Các hiệu ứng <status>Làm Chậm</status> của bạn giảm <speed>Tốc Độ Di Chuyển</speed> thêm @ExtraSlowAmount@."
     },
     {
         "id": 214,
@@ -141,13 +153,19 @@
         "id": 80,
         "vn_name": "Chiến Hoặc Chuồn",
         "en_name": "Tank It Or Leave It",
-        "desc": "Bạn có thể <crit>Thủ Đòn Chí Mạng</crit> bằng Tỉ Lệ Chí Mạng của mình (tối đa @MaxChance*100@%), giúp bạn có cơ hội giảm sát thương. Nhận @CritChance*100@% Tỉ Lệ Chí Mạng."
+        "desc": "Bạn có thể <crit>Thủ Đòn Chí Mạng</crit> bằng <crit>Tỉ Lệ Chí Mạng của mình (tối đa @MaxChance*100@%)</crit>, giúp bạn có cơ hội giảm sát thương. <br><br>Nhận <crit>%i:scaleCrit% @CritChance*100@% Tỉ Lệ Chí Mạng</crit>."
+    },
+    {
+        "id": 342,
+        "vn_name": "Cấp Độ Nâng Cấp",
+        "en_name": "Level Augments",
+        "desc": "Loại bỏ 1 <keywordMajor>%i:Augment% Nâng Cấp</keywordMajor>. <br><br>Nhận @AugmentLevelsToGrant@ <keywordMajor>%i:AugmentLevel% Cấp Độ Nâng Cấp</keywordMajor> ngẫu nhiên."
     },
     {
         "id": 97,
         "vn_name": "Tư Duy Ma Thuật",
         "en_name": "Witchful Thinking",
-        "desc": "Nhận <scaleAP>@AP@ Sức Mạnh Phép Thuật</scaleAP>."
+        "desc": "Nhận %i:scaleAP% <scaleAP>@AP@ Sức Mạnh Phép Thuật</scaleAP>."
     },
     {
         "id": 154,
@@ -156,10 +174,16 @@
         "desc": "Yêu cầu: Tham gia hạ gục @TakedownsNeeded@ lần.<br><br>Phần thưởng: Xẻng Vàng"
     },
     {
+        "id": 369,
+        "vn_name": "Khao Khát Quyền Lực",
+        "en_name": "Craving For Power",
+        "desc": "Hiến tế <scaleHealth>@HealthReductionPercent@% máu tối đa của bạn</scaleHealth> cho Tahm Kench. <br><br>Tổng lượng hiến tế của bạn sẽ tăng thành <scaleHealth>-@MaxHealthReduction@% máu tối đa</scaleHealth>.<br><br>Nhận <keywordMajor>@AnvilsGranted@ Gói Trang Bị Chỉ Số Vàng</keywordMajor>."
+    },
+    {
         "id": 90,
         "vn_name": "Phục Hận",
         "en_name": "Vengeance",
-        "desc": "Sau khi đồng đội bị hạ gục, tăng thêm một lượng lớn sát thương và <lifeSteal>Hút Máu Toàn Phần</lifeSteal> cho đến hết vòng đấu."
+        "desc": "{{ Cherry_Vengeance@TeamSize@_Summary }}"
     },
     {
         "id": 28,
@@ -171,13 +195,13 @@
         "id": 226,
         "vn_name": "Tăng Chỉ Số!",
         "en_name": "Stats!",
-        "desc": "Nhận @AmountOfStatAnvils@ Gói Trang Bị Chỉ Số!"
+        "desc": "Nhận @AmountOfStatAnvils@ %i:StatAnvil% Gói Trang Bị Chỉ Số!"
     },
     {
         "id": 54,
         "vn_name": "Chúa Tể Tay Đôi",
         "en_name": "Master of Duality",
-        "desc": "Đòn Đánh của bạn cho <scaleAP>Sức Mạnh Phép Thuật</scaleAP> {{ Item_Keyword_OnHit }} và Kỹ Năng cho <scaleAD>Sức Mạnh Công Kích</scaleAD>, cộng dồn vô hạn cho tới hết vòng đấu."
+        "desc": "Đòn Đánh của bạn cho <scaleAP>Sức Mạnh Phép Thuật</scaleAP> {{ Item_Keyword_OnHit }} và Kỹ Năng cho <scaleAD>Sức Mạnh Công Kích</scaleAD> cho tới hết vòng đấu."
     },
     {
         "id": 51,
@@ -195,13 +219,13 @@
         "id": 136,
         "vn_name": "Quăng Quật",
         "en_name": "Slap Around",
-        "desc": "Mỗi khi bạn <status>Làm Bất Động</status> hoặc <status>Sa Lầy</status> một kẻ địch, nhận được <font color = '#8347ff'>@AdaptiveForce@ Sức Mạnh Thích Ứng</font> cho đến hết vòng đấu, cộng dồn vô hạn."
+        "desc": "Mỗi khi bạn <status>Làm Bất Động</status> hoặc <status>Sa Lầy</status> một kẻ địch, nhận được <scaleAF>%i:miniAdaptiveForce% @AdaptiveForce@ Sức Mạnh Thích Ứng</scaleAF> cho đến hết vòng đấu."
     },
     {
         "id": 133,
         "vn_name": "Tên Lửa Ma Pháp",
         "en_name": "Magic Missile",
-        "desc": "Gây sát thương bằng Kỹ Năng sẽ bắn ra @NumberOfMissiles@ tên lửa ma pháp vào kẻ địch trúng chiêu, mỗi tên lửa gây <trueDamage>sát thương chuẩn theo phần trăm Máu tối đa</trueDamage> dựa trên khoảng cách đã bay được."
+        "desc": "Gây sát thương bằng Kỹ Năng sẽ bắn ra @NumberOfMissiles@ tên lửa ma pháp, mỗi tên lửa gây <trueDamage>sát thương chuẩn theo phần trăm Máu tối đa</trueDamage>."
     },
     {
         "id": 135,
@@ -213,25 +237,25 @@
         "id": 193,
         "vn_name": "Trung Tâm Vũ Trụ",
         "en_name": "Center of the Universe",
-        "desc": "Tinh vân xoay xung quanh bạn trong phạm vi Tầm Đánh, gây <magicDamage>sát thương phép</magicDamage> lên những kẻ địch chúng chạm phải."
+        "desc": "Tinh vân xoay xung quanh bạn, gây <magicDamage>sát thương phép</magicDamage> lên những kẻ địch chúng chạm phải."
     },
     {
         "id": 65,
         "vn_name": "Quỷ Quyệt Vô Thường",
         "en_name": "Phenomenal Evil",
-        "desc": "Nhận vĩnh viễn <scaleAP>@APPerProc@ Sức Mạnh Phép Thuật</scaleAP> khi đánh trúng kẻ địch bằng Kỹ Năng.<br><br>Nếu được chọn làm Nâng Cấp thứ hai của bạn, bắt đầu với <scaleAP>@StartingAPIfSecondAugment@ Sức Mạnh Phép Thuật</scaleAP>."
+        "desc": "Vĩnh viễn nhận <scaleAP>@APPerProc@ Sức Mạnh Phép Thuật</scaleAP> khi bạn đánh trúng kẻ địch bằng một Kỹ Năng.<br><br>Nếu nhận sau vòng @RoundCounterForBonusAP@, nhận <scaleAP>@BonusAPForLatePick@ Sức Mạnh Phép Thuật</scaleAP>."
     },
     {
         "id": 180,
         "vn_name": "Siêu Trí Tuệ",
         "en_name": "Big Brain",
-        "desc": "Khi bắt đầu mỗi vòng đấu, nhận<shield> @ShieldBase@ Lá Chắn </shield>với mỗi <scaleAP>%i:scaleAP% @AP@ Sức Mạnh Phép Thuật</scaleAP>."
+        "desc": "Khi bắt đầu mỗi vòng đấu, nhận<shield> @ShieldBaseTooltip@ Lá Chắn </shield>với mỗi <scaleAP>%i:scaleAP% @AP@ Sức Mạnh Phép Thuật</scaleAP>."
     },
     {
         "id": 92,
         "vn_name": "Yếu Điểm",
         "en_name": "Vulnerability",
-        "desc": "Trang Bị và hiệu ứng sát thương theo thời gian của bạn có thể Chí Mạng. Nhận @CritChance*100@% Tỉ Lệ Chí Mạng."
+        "desc": "Trang Bị và hiệu ứng sát thương theo thời gian của bạn có thể <crit>Chí Mạng</crit>. <br><br>Nhận <crit>%i:scaleCrit% @CritChance*100@% Tỉ Lệ Chí Mạng</crit>."
     },
     {
         "id": 10,
@@ -243,13 +267,13 @@
         "id": 233,
         "vn_name": "Xổ Số Chiêu Cuối",
         "en_name": "Ultimate Roulette",
-        "desc": "Thay thế phép bổ trợ Vọt Lẹ bằng một Chiêu Cuối ngẫu nhiên. Sau khi thi triển Chiêu Cuối, thay thế bằng một Chiêu Cuối ngẫu nhiên mới."
+        "desc": "Thay thế phép bổ trợ <spellName>Vọt Lẹ</spellName> bằng một <attention>Chiêu Cuối</attention> ngẫu nhiên. <br><br>Sau khi thi triển <attention>Chiêu Cuối</attention>, thay thế bằng một <attention>Chiêu Cuối</attention> ngẫu nhiên mới."
     },
     {
         "id": 310,
         "vn_name": "Học Thuật Làm Hề",
         "en_name": "Clown College",
-        "desc": "Nhận được Phép Bổ Trợ <spellName>Lừa Gạt</spellName>.<br>Nhận được Nội Tại <spellName>Đâm Lén</spellName>.<br><br>Khi bạn hy sinh, tạo một hộp phát nổ gây <trueDamage>sát thương chuẩn</trueDamage> lớn và làm kẻ địch xung quanh <status>Hoảng Sợ</status>."
+        "desc": "Nhận Phép Bổ Trợ <spellName>Lừa Gạt</spellName>.<br><br><spellName>Lừa Gạt</spellName>: Dịch chuyển và trở nên <keywordStealth>Tàng Hình</keywordStealth>. Đòn đánh kế tiếp của bạn khi đang <keywordStealth>Tàng Hình</keywordStealth> sẽ gây thêm <physicalDamage>sát thương vật lý</physicalDamage>. <br><br>Khi bạn hy sinh, tạo một hộp phát nổ gây <trueDamage>sát thương chuẩn</trueDamage> lớn và làm kẻ địch xung quanh <status>Hoảng Sợ</status>."
     },
     {
         "id": 251,
@@ -267,7 +291,7 @@
         "id": 53,
         "vn_name": "Bác Học Điên",
         "en_name": "Mad Scientist",
-        "desc": "Khi bắt đầu vòng đấu, bạn hóa lớn (<font color = '#8347ff'>Sức Mạnh Thích Ứng</font> và <scaleHealth>Máu</scaleHealth>) hoặc hóa nhỏ (Điểm Hồi Kỹ Năng và <speed>Tốc Độ Di Chuyển</speed>)."
+        "desc": "Khi bắt đầu mỗi Vòng Đấu, bạn sẽ hóa lớn (<scaleAF>Sức Mạnh Thích Ứng</scaleAF> và <scaleHealth>Máu</scaleHealth>) hoặc hóa nhỏ (<scaleAbilityHaste>Điểm Hồi Kỹ Năng</scaleAbilityHaste> và <speed>Tốc Độ Di Chuyển</speed>)."
     },
     {
         "id": 57,
@@ -279,7 +303,7 @@
         "id": 88,
         "vn_name": "Tái Tạo Tuyệt Chiêu",
         "en_name": "Ultimate Revolution",
-        "desc": "Một lần mỗi vòng, hồi lại Chiêu Cuối của bạn sau khi thi triển."
+        "desc": "Một lần mỗi vòng đấu, làm mới <attention>Chiêu Cuối</attention> sau khi bạn thi triển nó."
     },
     {
         "id": 236,
@@ -291,13 +315,13 @@
         "id": 171,
         "vn_name": "Phân Rã Năng Lượng",
         "en_name": "Dematerialize",
-        "desc": "Nhận <font color = '#8347ff'>@AdaptiveForce@ Sức Mạnh Thích Ứng</font> khi tham gia hạ gục, một lần mỗi tướng mỗi vòng đấu.<br><br>Nếu được chọn làm Nâng Cấp thứ hai của bạn, bắt đầu với <font color = '#8347ff'>@SecondPickBonus@ Sức Mạnh Thích Ứng</font>."
+        "desc": "Nhận <scaleAF>%i:miniAdaptiveForce% @AdaptiveForce@ Sức Mạnh Thích Ứng</scaleAF> khi tham gia hạ gục, một lần mỗi tướng mỗi vòng đấu.<br><br><rules>Nhận nâng cấp này sau vòng @RoundCounterForBonus@, nhận <scaleAF>%i:miniAdaptiveForce% @BonusForLatePick@ Sức Mạnh Thích Ứng</scaleAF>.</rules>"
     },
     {
         "id": 250,
         "vn_name": "Chậm Và Chắc",
         "en_name": "Slow and Steady",
-        "desc": "<speed>Tốc Độ Đánh</speed> của bạn cố định là @StaticRatio@. Toàn bộ <speed>Tốc Độ Đánh</speed> cộng thêm được chuyển hóa thành <scaleAD>Sức Mạnh Công Kích</scaleAD>. (<scaleAD>@ADPerAS@SMCK</scaleAD> mỗi <speed>1% Tốc Đánh</speed>).<br>"
+        "desc": "<speed>Tốc Độ Đánh</speed> của bạn không thể vượt quá @StaticRatio@. Toàn bộ <speed>Tốc Độ Đánh</speed> cộng thêm được chuyển hóa thành <scaleAD>Sức Mạnh Công Kích</scaleAD>.<br>"
     },
     {
         "id": 39,
@@ -321,7 +345,7 @@
         "id": 30,
         "vn_name": "Eureka",
         "en_name": "Eureka",
-        "desc": "Nhận Điểm Hồi Kỹ Năng tương đương <scaleAP>@APToHasteConversion*100@% Sức Mạnh Phép Thuật</scaleAP>."
+        "desc": "Nhận <scaleAbilityHaste>Điểm Hồi Kỹ Năng</scaleAbilityHaste> tương đương <scaleAP>@APToHasteConversion*100@% Sức Mạnh Phép Thuật</scaleAP>."
     },
     {
         "id": 60,
@@ -333,7 +357,7 @@
         "id": 321,
         "vn_name": "Vệ Sĩ",
         "en_name": "Bodyguard",
-        "desc": "Sử dụng lướt, nhảy hoặc dịch chuyển sẽ ban cho bạn một <shield>lá chắn</shield> trong @ShieldDuration@ giây, lá chắn này cũng được cấp cho những đồng minh bạn lướt qua. Sức mạnh của <shield>lá chắn</shield> này phụ thuộc vào hồi chiêu cơ bản của kỹ năng ở cấp 1."
+        "desc": "Sử dụng kỹ năng lướt, nhảy hoặc dịch chuyển sẽ tạo cho bạn, và các tướng đồng minh bạn lướt qua, một <shield>lá chắn</shield>."
     },
     {
         "id": 15,
@@ -345,19 +369,13 @@
         "id": 156,
         "vn_name": "Nhiệm Vụ: Mũ Phù Thủy Wooglet",
         "en_name": "Quest: Wooglet's Witchcap",
-        "desc": "Ngay lập tức: Nhận Gậy Quá Khổ.<br><br>Yêu cầu: Sở hữu Mũ Phù Thủy Rabadon và Đồng Hồ Cát Zhonya.<br><br>Phần thưởng: Nhận Mũ Phù Thủy Wooglet."
+        "desc": "Ngay lập tức: Nhận <attention>Gậy Quá Khổ</attention>.<br><br>Yêu cầu: Sở hữu <attention>Mũ Phù Thủy Rabadon</attention> và <attention>Đồng Hồ Cát Zhonya</attention>.<br><br>Phần thưởng: Nhận <attention>Mũ Phù Thủy Wooglet</attention>."
     },
     {
         "id": 27,
         "vn_name": "Chấn Động",
         "en_name": "Earthwake",
         "desc": "Kỹ năng lướt, nhảy hoặc dịch chuyển của bạn sẽ để lại một vệt phía sau, vệt này sẽ phát nổ sau 1 giây."
-    },
-    {
-        "id": 170,
-        "vn_name": "Lắp Kính Nhắm",
-        "en_name": "Scoped Weapons",
-        "desc": "Nhận @MeleeRangeIncrease@ Tầm Đánh, giảm xuống còn @RangedRangeIncrease@ nếu bạn là Tướng Đánh Xa."
     },
     {
         "id": 103,
@@ -381,7 +399,7 @@
         "id": 107,
         "vn_name": "Nhân Hai Nhân Ba",
         "en_name": "Twice Thrice",
-        "desc": "Mỗi Đòn Đánh thứ ba, hiệu ứng {{ Item_Keyword_OnHit }} của bạn sẽ được kích hoạt lần hai."
+        "desc": "Mỗi @ProcCadence@ đòn đánh, hiệu ứng {{ Item_Keyword_OnHit }} của bạn sẽ được kích hoạt lần hai."
     },
     {
         "id": 239,
@@ -417,7 +435,7 @@
         "id": 34,
         "vn_name": "Bảo Hộ Sa Ngã",
         "en_name": "Fallen Aegis",
-        "desc": "Khởi đầu giao tranh với <abilityName>Khiên Đen</abilityName> trong @ShieldDuration@ giây.<br><br><rules><abilityName>Khiên Đen</abilityName> chặn Sát Thương Phép và các hiệu ứng <status>Bất Động</status>.</rules>"
+        "desc": "Bắt đầu giao tranh với <abilityName>Khiên Đen</abilityName> trong @ShieldDuration@ giây.<br><br><rules><attention>Khiên Đen</attention> <shield>chặn Sát Thương Phép</shield> và hiệu ứng <status>Khống Chế</status>.</rules>"
     },
     {
         "id": 198,
@@ -429,7 +447,7 @@
         "id": 311,
         "vn_name": "Tràn Trề",
         "en_name": "Overflow",
-        "desc": "<scaleMana>Năng Lượng tiêu hao</scaleMana> của bạn tăng gấp đôi. <healing>Hồi Máu</healing>, <shield>Lá Chắn</shield> và sát thương từ Kỹ Năng của bạn gia tăng dựa trên <scaleMana>Năng Lượng tối đa</scaleMana>."
+        "desc": "<scaleMana>Năng Lượng</scaleMana> tiêu hao của bạn tăng gấp đôi. <br><br><healing>Hồi Máu</healing>, <shield>Lá Chắn</shield> và sát thương từ Kỹ Năng của bạn gia tăng dựa trên <scaleMana>Năng Lượng tối đa</scaleMana>."
     },
     {
         "id": 35,
@@ -444,40 +462,46 @@
         "desc": "<status>Làm Bất Động</status> hoặc <status>Sa Lầy</status> tướng địch sẽ <healing>hồi máu cho bạn</healing>."
     },
     {
-        "id": 71,
-        "vn_name": "Lắp Kính Nhắm",
-        "en_name": "Scopier Weapons",
-        "desc": "Nhận @MeleeRangeIncrease@ Tầm Đánh, giảm xuống còn @RangedRangeIncrease@ nếu bạn là Tướng Đánh Xa."
-    },
-    {
         "id": 9,
         "vn_name": "Bùa Lợi Thiện Lành",
         "en_name": "Buff Buddies",
-        "desc": "Bạn nhận được <font color = '#f30c1a'>Bùa Tro Tàn</font> và <font color = '#1542ea'>Bùa Thấu Thị</font>."
+        "desc": "Bạn nhận được <font color = '#f30c1a'>Bùa Tro Tàn</font> và <font color = '#1542ea'>Bùa Thấu Thị</font>.<br><br>Tăng Điểm Hồi Kỹ Năng và khả năng hồi phục tài nguyên cho bản thân, đồng thời khiến các Đòn Đánh của bạn <keywordMajor>Thiêu Đốt</keywordMajor> và <status>Làm Chậm</status> tướng địch."
     },
     {
         "id": 125,
         "vn_name": "Trùm Bản Đồ",
         "en_name": "Raid Boss",
-        "desc": "Bắt đầu mỗi vòng đấu, bạn bị cầm tù tại trung tâm võ đài, không thể thao tác. Khi đang bị cầm tù, bạn nhận hiệu ứng kháng sát thương cực mạnh và tăng dần kích cỡ, đồng thời nhận thêm <scaleHealth>Máu</scaleHealth>, <physicalDamage>Sức Mạnh Công Kích</physicalDamage> và <scaleAP>Sức Mạnh Phép Thuật</scaleAP> theo thời gian. Sau @ImprisonDuration@ giây hoặc sau khi đạt tới <scaleHealth>@BreakoutHealthThreshold*100@% Máu</scaleHealth>, phá ngục và <status>Đẩy Lùi</status> kẻ địch, đồng thời nhận được <shield>Lá Chắn</shield> theo <scaleHealth>Máu tối đa</scaleHealth>."
+        "desc": "Bạn bắt đầu mỗi vòng trong tình trạng bị giam cầm. Khi đang bị giam cầm, bạn nhận hiệu ứng kháng sát thương cực mạnh, tăng dần kích cỡ và sức mạnh theo thời gian. <br><br>Khi thoát thân, <status>Đẩy Lùi</status> kẻ địch và nhận được <shield>Lá Chắn</shield>."
     },
     {
         "id": 63,
         "vn_name": "Gan Góc Vô Pháp",
         "en_name": "Outlaw's Grit",
-        "desc": "Sau khỉ sử dụng lướt, nhảy hoặc dịch chuyển, bạn sẽ nhận được <scaleArmor>@ResistsPerStack@ Giáp</scaleArmor> và <scaleMR>Kháng Phép</scaleMR>, tăng lên tới @MaxResistTooltipOnly@ khi đạt @MaxStacks@ cộng dồn."
+        "desc": "Sau khi sử dụng Kỹ Năng Lướt, Nhảy hoặc Dịch Chuyển, bạn sẽ nhận được <scaleArmor>Giáp</scaleArmor> và <scaleMR>Kháng Phép</scaleMR>."
     },
     {
         "id": 26,
         "vn_name": "Đừng Chớp Mắt",
         "en_name": "Don't Blink",
-        "desc": "Gây thêm sát thương lên kẻ địch khi bạn có tốc độ di chuyển lớn hơn chúng."
+        "desc": "Tăng @BonusDamagePerMSDifference*1000@% sát thương gây ra với mỗi <speed>10 Tốc Độ Di Chuyển</speed> bạn có nhiều hơn kẻ địch."
+    },
+    {
+        "id": 372,
+        "vn_name": "Khát Vọng Sức Mạnh",
+        "en_name": "Compulsion For Power",
+        "desc": "Hiến tế <scaleHealth>@HealthReductionPercent@% máu tối đa của bạn</scaleHealth> cho Tahm Kench. <br><br>Tổng lượng hiến tế của bạn sẽ tăng lên <scaleHealth>-@MaxHealthReduction@% máu tối đa</scaleHealth>.<br><br>Nhận <keywordMajor>@AnvilsGranted@ Gói Trang Bị Chỉ Số Kim Cương</keywordMajor>."
     },
     {
         "id": 73,
         "vn_name": "Bóng Đen Tốc Độ",
         "en_name": "Shadow Runner",
         "desc": "Sau khi sử dụng 1 Kỹ Năng lướt, nhảy hoặc dịch chuyển hay thoát khỏi trạng thái <stealth>Tàng Hình</stealth>, nhận <speed>@spell.Augment_ShadowRunner:MSAmount@ Tốc Độ Di Chuyển</speed> trong @spell.Augment_ShadowRunner:BuffDuration@ giây."
+    },
+    {
+        "id": 316,
+        "vn_name": "Nọc Độc Sâu",
+        "en_name": "Grevious Venom",
+        "desc": "Gây sát thương lên một tướng địch sẽ làm giảm mọi <shield>lá chắn</shield> chúng nhận được và gây <status>Vết Thương Sâu</status>, làm giảm <healing>hồi máu</healing> chúng nhận được. "
     },
     {
         "id": 45,
@@ -495,19 +519,19 @@
         "id": 4,
         "vn_name": "Đơn Giản Hóa",
         "en_name": "Back To Basics",
-        "desc": "Được tăng Sát Thương Kỹ Năng, <healing>Hồi Máu</healing>, <shield>Lá Chắn</shield>, và Điểm Hồi Kỹ Năng, bù lại <keywordMajor>không thể dùng Chiêu Cuối</keywordMajor>."
+        "desc": "Được tăng Sát Thương Kỹ Năng, <healing>Hồi Máu</healing>, <shield>Lá Chắn</shield>, và <scaleAbilityHaste>Điểm Hồi Kỹ Năng</scaleAbilityHaste>, bù lại <keywordMajor>không thể dùng Chiêu Cuối</keywordMajor>."
     },
     {
         "id": 224,
         "vn_name": "Trứng Tối Thượng",
         "en_name": "Prismatic Egg",
-        "desc": "Nhận @KillStackCredit@ cộng dồn khi tham gia hạ gục, một lần mỗi tướng mỗi vòng đấu.<br><br>Mỗi @RequiredKillCount@ cộng dồn, nở ra thành Gói Trang Bị Kim Cương và @RerollsToGrant@ lượt đổi cộng thêm."
+        "desc": "Nhận @KillStackCredit@ cộng dồn khi tham gia hạ gục, một lần mỗi tướng mỗi vòng đấu.<br><br>Sau @RequiredKillCount@ cộng dồn, nở ra một <attention>Gói Trang Bị Kim Cương</attention>, <attention>%i:Augment% Nâng Cấp Kim Cương</attention>, một <attention>%i:StatAnvil% Gói Trang Bị Chỉ Số Kim Cương</attention>."
     },
     {
         "id": 110,
         "vn_name": "Kết Nối Ngoại Trang",
         "en_name": "Clothesline",
-        "desc": "Tạo sợi dây kết nối giữa bạn và chiến hữu, gây <magicDamage>sát thương phép</magicDamage> liên tục lên kẻ địch ở giữa."
+        "desc": "Có một sợi dây liên kết đội của bạn, liên tục gây <magicDamage>sát thương phép</magicDamage> lên những kẻ địch chạm phải nó."
     },
     {
         "id": 102,
@@ -516,28 +540,34 @@
         "desc": "Bạn có thể đi xuyên vật thể và để lại một vệt độc tố phía sau, gây <magicDamage>sát thương phép</magicDamage> lên những kẻ địch dẫm phải."
     },
     {
+        "id": 368,
+        "vn_name": "Khao Khát Giàu Sang",
+        "en_name": "Craving For Wealth",
+        "desc": "Hiến tế <scaleHealth>@HealthReductionPercent@% máu tối đa của bạn</scaleHealth> cho Tahm Kench. <br><br>Tổng lượng hiến tế của bạn sẽ tăng thành <scaleHealth>-@MaxHealthReduction@% máu tối đa</scaleHealth>.<br><br>Nhận <gold>+%i:goldCoins% @GoldToGrant@ vàng</gold>."
+    },
+    {
         "id": 77,
         "vn_name": "Hút Hồn",
         "en_name": "Soul Siphon",
-        "desc": "Nhận <crit>@CritChance*100@% Tỉ Lệ Chí Mạng</crit> và <lifeSteal>@HealPercentage*100@% hút máu từ <crit>Đòn Chí Mạng</crit></lifeSteal>."
+        "desc": "<lifeSteal>Hồi máu bằng @HealPercentage*100@% sát thương gây ra</lifeSteal> bởi <crit>Đòn Chí Mạng</crit>.<br><br>Nhận <crit>%i:scaleCrit% @CritChance*100@% Tỉ Lệ Chí Mạng</crit>."
     },
     {
         "id": 234,
         "vn_name": "Gói Trang Bị Đánh Cược",
         "en_name": "Gamba Anvil",
-        "desc": "Nhận @GoldBonus@ vàng và giảm giá của tất cả các gói trang bị.<br><br>Gói Trang Bị Kim Cương: @PrismaticCostReduction@<br>Gói Trang Bị Huyền Thoại: @LegendaryCostReduction@<br>Gói Trang Bị Chỉ Số: @StatCostReduction@<br><br><rules>Các trang bị nhận được từ gói trang bị được bán lại với giá giảm 500 vàng.</rules>"
+        "desc": "Nhận <gold>+%i:goldCoins%@GoldBonus@ vàng</gold> và giảm giá của tất cả gói trang bị.<br><br><attention>Gói Trang Bị Kim Cương</attention>: <gold>%i:goldCoins%@PrismaticCostReduction@ vàng</gold><br><attention>Gói Trang Bị Huyền Thoại</attention>: <gold>-%i:goldCoins%@LegendaryCostReduction@ vàng</gold><br><attention>Gói Trang Bị Chỉ Số</attention>: <gold>-%i:goldCoins%@StatCostReduction@ vàng</gold><br><br><rules>Các trang bị nhận được từ gói trang bị được bán lại với giá giảm <gold>-%i:goldCoins%500 vàng</gold>.</rules>"
     },
     {
         "id": 301,
         "vn_name": "Thần Linh Ban Phước",
         "en_name": "Divine Intervention",
-        "desc": "@InitalDelay@ giây sau khi bắt đầu giao tranh, triệu hồi một ngôi sao hộ mệnh từ từ đáp xuống bên bạn. Khi nó đáp xuống, bạn và các đồng đội ở gần trở nên <keywordMajor>Bất Tử</keywordMajor> trong vài giây. <keywordMajor>Thi Triển Tự Động</keywordMajor> kỹ năng này mỗi @BaseCD@ giây."
+        "desc": "Ngay sau khi giao tranh bắt đầu, triệu hồi một ngôi sao bảo hộ. Khi nó đáp xuống, bạn và các đồng đội ở gần trở nên <keywordMajor>Bất Tử</keywordMajor> trong vài giây. <br><br><keywordMajor>Thi Triển Tự Động</keywordMajor> kỹ năng này mỗi @BaseCD@ giây."
     },
     {
         "id": 84,
         "vn_name": "Xe Chỉ Luồn Kim",
         "en_name": "Thread the Needle",
-        "desc": "Nhận thêm @PercentPen*100@% <physicalDamage>Xuyên Giáp</physicalDamage> và <magicDamage>Xuyên Kháng Phép</magicDamage>."
+        "desc": "Nhận thêm @PercentPen*100@% <armorPen>%i:scaleAPen% Xuyên Giáp</armorPen> và <magicPen>%i:scaleMPen% Xuyên Kháng Phép</magicPen>."
     },
     {
         "id": 151,
@@ -555,7 +585,7 @@
         "id": 317,
         "vn_name": "Hộp Pandora",
         "en_name": "Pandora's Box",
-        "desc": "Chuyển hóa tất cả các nâng cấp của bạn thành nâng cấp Kim Cương ngẫu nhiên."
+        "desc": "Chuyển hóa tất cả các nâng cấp của bạn thành Nâng Cấp <keywordMajor>Kim Cương ngẫu nhiên%i:Augment%</keywordMajor>."
     },
     {
         "id": 33,
@@ -582,10 +612,16 @@
         "desc": "Làm sao bạn tìm được nó?!?!? <br><br>Nhận thêm @HatsToGrant@ mũ."
     },
     {
+        "id": 373,
+        "vn_name": "Khát Vọng Mạo Hiểm",
+        "en_name": "Compulsion For Risk",
+        "desc": "Hiến tế <scaleHealth>@HealthReductionPercent@% máu tối đa của bạn</scaleHealth> cho Tahm Kench. <br><br>Tổng lượng hiến tế của bạn sẽ tăng thành <scaleHealth>-@MaxHealthReduction@% máu tối đa</scaleHealth>.<br><br>Nhận một <keywordMajor>%i:Augment% Nâng Cấp Kim Cương</keywordMajor>."
+    },
+    {
         "id": 225,
         "vn_name": "Vũ Khí Hạng Nhẹ",
         "en_name": "Dual Wield",
-        "desc": "Khi bạn tung Đòn Đánh, bắn ra một tia đạn gây @AttackReduction*100@% sát thương và các hiệu ứng {{ Item_Keyword_OnHit }} với @OnHitMod*100@% hiệu lực. Nhận tổng cộng <attackSpeed>@AttackSpeed*100@% Tốc Độ Đánh</attackSpeed>"
+        "desc": "Khi bạn tung Đòn Đánh, bắn ra một tia đạn gây @AttackReduction*100@% sát thương và các hiệu ứng {{ Item_Keyword_OnHit }} với @OnHitMod*100@% hiệu lực. <br><br>Nhận tổng cộng <attackSpeed>@AttackSpeed*100@% Tốc Độ Đánh</attackSpeed>."
     },
     {
         "id": 405,
@@ -597,13 +633,13 @@
         "id": 78,
         "vn_name": "Liên Kết Tâm Linh",
         "en_name": "Spirit Link",
-        "desc": "Nhận thay cho đồng đội @DamageRedirectPercentage*100@% sát thương họ phải gánh chịu và hưởng <healing>@HealCopyPercentage*100@% lượng hồi máu</healing> họ nhận được."
+        "desc": "{{Cherry_SpiritLink@TeamSize@_Summary}}"
     },
     {
         "id": 217,
         "vn_name": "Bàn Tay Tử Thần",
         "en_name": "Deathtouch",
-        "desc": "Đòn đánh lên tướng địch sẽ cho vĩnh viễn <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> và gây thêm <magicDamage>sát thương phép</magicDamage> dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn.<br><br>Lượng <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> tối đa bạn có thể nhận mỗi vòng sẽ tăng theo tổng số nguồn <keywordMajor>Nguyền Rủa</keywordMajor> của bạn và đồng đội."
+        "desc": "Đòn đánh lên tướng địch sẽ cho vĩnh viễn <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> và gây thêm <magicDamage>sát thương phép</magicDamage> dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn."
     },
     {
         "id": 192,
@@ -615,13 +651,19 @@
         "id": 17,
         "vn_name": "Sát Thủ Đánh Thuê",
         "en_name": "Contract Killer",
-        "desc": "Mỗi vòng, đánh dấu 1 đối thủ để gây thêm @spell.Augment_ContractKiller:DamageAmp*100@% sát thương và nhận thêm @spell.Augment_ContractKiller:Gold@ vàng khi kẻ địch đó bị hạ gục."
+        "desc": "Mỗi vòng, đánh dấu 1 tướng địch. <br><br>Tướng đó nhận thêm @DamageAmp*100@% sát thương và cho thêm <gold>+%i:goldCoins%@Gold@ vàng</gold> khi bị hạ gục."
     },
     {
         "id": 138,
         "vn_name": "Chùy Hấp Huyết",
         "en_name": "Goredrink",
         "desc": "Tăng <lifeSteal>@Omnivamp*100@% Hút Máu Toàn Phần</lifeSteal>."
+    },
+    {
+        "id": 330,
+        "vn_name": "Tước Đoạt",
+        "en_name": "Despoil",
+        "desc": "Lướt Đi hoặc Dịch Chuyển sẽ cho bạn <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> nếu có kẻ địch ở gần. Nhận thêm <speed>Tốc Độ Di Chuyển</speed> tỉ lệ với <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn."
     },
     {
         "id": 312,
@@ -645,19 +687,13 @@
         "id": 61,
         "vn_name": "Boomerang OK",
         "en_name": "OK Boomerang",
-        "desc": "<keywordMajor>Tự Động</keywordMajor> phóng ra 1 boomerang vào 1 tướng địch gần bên sau mỗi @BaseCooldown@ giây."
+        "desc": "<keywordMajor>Tự Động</keywordMajor> phóng ra 1 boomerang vào 1 tướng địch gần bên sau mỗi @Cooldown@ giây."
     },
     {
         "id": 357,
         "vn_name": "Hỗn Hợp",
         "en_name": "Hybrid",
         "desc": "Khi bạn gây sát thương bằng một Đòn Đánh, Kỹ Năng tiếp theo của bạn gây thêm @AbilityBoost*100@% sát thương.<br><br>Khi bạn gây sát thương bằng một Kỹ Năng, Đòn Đánh tiếp theo của bạn gây thêm @AttackBoost*100@% sát thương."
-    },
-    {
-        "id": 338,
-        "vn_name": "Tư Duy Bầy Ong",
-        "en_name": "Hive Mind",
-        "desc": "Bắt đầu mỗi vòng đấu với @StartingBees@ Ong, nhận thêm Ong khi thu hoạch hoa. Gây sát thương lên tướng địch sẽ phóng Ong gây <magicDamage>@BeeDamage@ sát thương phép</magicDamage> trong vòng @DebuffDuration@ giây khi tới đích, sau đó quay lại với bạn.<br>"
     },
     {
         "id": 319,
@@ -669,7 +705,7 @@
         "id": 49,
         "vn_name": "Hộp Nước Ép",
         "en_name": "Juice Box",
-        "desc": "Mỗi vòng, bạn và đồng đội sẽ nhận được thêm 1 Nước Ép miễn phí."
+        "desc": "Mỗi vòng, toàn bộ đội của bạn nhận được @JuiceCount@ Nước Ép."
     },
     {
         "id": 115,
@@ -681,19 +717,19 @@
         "id": 232,
         "vn_name": "Nổ Nhớt",
         "en_name": "Slime Time",
-        "desc": "Sau mỗi vài giây, <keywordMajor>Tự Động Thi Triển</keywordMajor> một vụ nổ nhớt ra xung quanh, gây <magicDamage>sát thương phép</magicDamage> lên những kẻ địch ở gần. Nếu bạn đánh trúng một tướng, tạo ra một vũng nhớt có khả năng hồi máu cho bạn khi bước qua."
+        "desc": "Sau mỗi vài giây, <keywordMajor>Tự Động Thi Triển</keywordMajor> một vụ nổ nhớt ra xung quanh, gây <magicDamage>sát thương phép</magicDamage> lên những kẻ địch ở gần. <br><br>Nếu bạn đánh trúng một tướng, tạo ra một vũng nhớt có khả năng <healing>hồi máu</healing> cho bạn khi bước qua."
     },
     {
         "id": 216,
         "vn_name": "Gieo Rắc Sợ Hãi",
         "en_name": "Dreadbringer",
-        "desc": "Nhận 1 hào quang liên tục thu thập <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> vĩnh viễn từ mỗi tướng địch ở trong hào quang đó. Nhận <scaleHealth>Máu tối đa</scaleHealth> dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn.<br><br>Lượng <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> tối đa bạn có thể nhận mỗi vòng sẽ tăng theo tổng số nguồn <keywordMajor>Nguyền Rủa</keywordMajor> giữa bạn và đồng đội của bạn."
+        "desc": "Nhận 1 hào quang liên tục thu thập <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> vĩnh viễn từ mỗi tướng địch ở trong hào quang đó. Nhận <scaleHealth>Máu tối đa</scaleHealth> dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn."
     },
     {
         "id": 320,
         "vn_name": "Rủi Ro Có Tính Toán",
         "en_name": "Calculated Risk",
-        "desc": "Lập tức tiêu thụ số lượt đổi còn lại, bạn sẽ không thể đổi lại nữa.<br><br>Chọn một Nâng Cấp Vàng, nếu ít nhất @PrismaticThreshold@ lượt đổi đã được tiêu thụ theo cách này, cường hóa nó để chọn một Nâng Cấp Kim Cương thay thế."
+        "desc": "Bạn không thể %i:Reroll% Đổi Lại nữa.<br><br>Bắt đầu một lượt chọn <keywordMajor>%i:Augment% Nâng Cấp Vàng</keywordMajor>, nếu bạn có từ @AugmentThreshold@ nâng cấp trở xuống, thay vào đó nhận 1 <keywordMajor>%i:Augment% Nâng Cấp Kim Cương</keywordMajor>."
     },
     {
         "id": 204,
@@ -711,7 +747,7 @@
         "id": 194,
         "vn_name": "Ma Pháp Mê Hoặc",
         "en_name": "Fey Magic",
-        "desc": "Gây sát thương bằng Chiêu Cuối sẽ <status>Biến Hóa</status> kẻ địch trong vài giây."
+        "desc": "Gây sát thương bằng <attention>Chiêu Cuối</attention> sẽ <status>Biến Hóa</status> kẻ địch trong vài giây."
     },
     {
         "id": 36,
@@ -723,31 +759,37 @@
         "id": 219,
         "vn_name": "Điềm Gở",
         "en_name": "Doomsayer",
-        "desc": "Đánh trúng tướng địch bằng kỹ năng sẽ vĩnh viễn cho bạn <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor>. Nhận <font color = '#8347ff'>Sức Mạnh Thích Ứng</font> dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn.<br><br>Lượng <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> tối đa bạn có thể nhận mỗi vòng sẽ tăng theo tổng số nguồn <keywordMajor>Nguyền Rủa</keywordMajor> của bạn và đồng đội."
+        "desc": "Đánh trúng tướng địch bằng kỹ năng sẽ cho bạn vĩnh viễn <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor>. Nhận <scaleAF>Sức Mạnh Thích Ứng</scaleAF> dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn."
     },
     {
         "id": 116,
         "vn_name": "Tốc Biến Liên Hoàn",
         "en_name": "Flashy",
-        "desc": "Tốc Biến của bạn có @FlashAmmoTooltip@ tích trữ và @FlashCooldown@ giây hồi chiêu."
+        "desc": "<spellName>Tốc Biến</spellName> của bạn có @MaxAmmo@ tích trữ và @FlashCooldown@ giây hồi chiêu."
     },
     {
         "id": 177,
         "vn_name": "Búp Bê Xây Tổ",
         "en_name": "Nesting Doll",
-        "desc": "Bạn sẽ tự động Hồi Sinh bản thân sau @ReviveArmTime@ giây và bạn có thể được Hồi Sinh thêm 1 lần nữa. Mỗi lần Hồi Sinh, bạn sẽ trở lại với kích cỡ nhỏ hơn và bị giảm <scaleHealth>Máu tối đa</scaleHealth>.<br><br>Khi hồi sinh, <status>Đẩy Lùi</status> kẻ địch xung quanh bạn."
+        "desc": "Nhận thêm @BonusLives@ lần <attention>Hồi Sinh</attention>, và bắt đầu tự hồi sinh sau khi bạn bị hạ gục.<br><br>Khi bạn <attention>Hồi Sinh</attention>, <status>Đẩy Lùi</status> kẻ địch xung quanh và trở lại với kích thước nhỏ hơn cùng lượng <scaleHealth>Máu tối đa</scaleHealth> giảm."
     },
     {
         "id": 81,
         "vn_name": "Vũ Công Thiết Hài",
         "en_name": "Tap Dancer",
-        "desc": "Các Đòn Đánh của bạn trao cho bạn <speed>@MSPerHit@ Tốc Độ Di Chuyển</speed>, cộng dồn vô hạn. Nhận thêm <attackSpeed>Tốc Độ Đánh</attackSpeed> bằng @MSToASConversion*10000@% lượng <speed>Tốc Độ Di Chuyển</speed> của bạn."
+        "desc": "Đòn Đánh của bạn tăng <speed>@MSPerHit@ Tốc Độ Di Chuyển</speed> {{ Item_Keyword_OnHit }}. <br><br>Nhận thêm <attackSpeed>Tốc Độ Đánh</attackSpeed> bằng @MSToASConversion*10000@% lượng <speed>Tốc Độ Di Chuyển</speed> của bạn."
     },
     {
         "id": 220,
         "vn_name": "Xả Đạn Hàng Loạt",
         "en_name": "Fan the Hammer",
-        "desc": "Khi bạn Tấn Công, bắn ra thêm @AdditionalBolts@ đường đạn, mỗi đường đạn gây <physicalDamage>sát thương vật lý</physicalDamage> dựa trên khoảng cách đã bay. Mỗi hướng bắn có Hồi Chiêu riêng."
+        "desc": "Khi bạn tung Đòn Đánh, bắn ra @AdditionalBolts@ tia, mỗi tia gây <physicalDamage>sát thương vật lý</physicalDamage> và áp dụng hiệu ứng {{ Item_Keyword_OnHit }} của bạn."
+    },
+    {
+        "id": 364,
+        "vn_name": "Thay Thế Nâng Cấp",
+        "en_name": "Replace Augment",
+        "desc": "<keywordMajor>Thay Thế</keywordMajor> một trong các <keywordMajor>%i:Augment% Nâng Cấp</keywordMajor> của bạn thành Nâng Cấp <keywordMajor>cao hơn @TierIncreaseToolTipOnly@%i:AugmentLevel% bậc</keywordMajor>."
     },
     {
         "id": 85,
@@ -759,43 +801,49 @@
         "id": 104,
         "vn_name": "Bậc Thầy Gọi Đệ",
         "en_name": "Minionmancer",
-        "desc": "Các triệu hồi của bạn được tăng @MinionSizeIncrease*100@% kích cỡ, máu và sát thương."
-    },
-    {
-        "id": 331,
-        "vn_name": "Công Cụ Đa Dụng",
-        "en_name": "Multitool",
-        "desc": "Thêm Công Cụ Đa Dụng vào kho đồ của bạn. Trong mỗi Giai Đoạn Mua Sắm, chọn 1 trong 5 trang bị ngẫu nhiên; Công Cụ Đa Dụng sẽ biến thành trang bị đó cho vòng giao tranh kế tiếp."
+        "desc": "Các đơn vị triệu hồi của bạn được tăng @MinionAmp*100@% kích cỡ, máu và sát thương."
     },
     {
         "id": 313,
         "vn_name": "Động Cơ Đỡ Đòn",
         "en_name": "Tank Engine",
-        "desc": "Nhận @SizeIncrement*100@% kích cỡ gia tăng và <scaleHealth>@MaxHPIncrement*100@% Máu cộng thêm</scaleHealth> cho mỗi mạng hạ gục."
+        "desc": "Tăng kích thước và <scaleHealth>Máu cộng thêm theo phần trăm</scaleHealth> với mỗi mạng hạ gục."
+    },
+    {
+        "id": 341,
+        "vn_name": "Nhận 1 ô Nâng Cấp",
+        "en_name": "Gain an Augment slot",
+        "desc": "Mở khóa <keywordMajor>%i:Augment% Ô Nâng Cấp thứ @TooltipSlotToUnlock@</keywordMajor> của bạn.<br><br>Sau @RoundsUntilFreeAugment@ vòng đấu, nhận 1 <keywordMajor>%i:Augment% Nâng Cấp Bạc</keywordMajor>."
     },
     {
         "id": 29,
         "vn_name": "Vũ Khí Siêu Nhiên",
         "en_name": "Ethereal Weapon",
-        "desc": "Kỹ năng của bạn sẽ gây các hiệu ứng {{ Item_Keyword_OnHit }}. 1 giây hồi chiêu trên mỗi mục tiêu."
+        "desc": "Kỹ Năng của bạn sẽ gây các hiệu ứng {{ Item_Keyword_OnHit }}."
     },
     {
         "id": 62,
         "vn_name": "Linh Hồn Toàn Năng",
         "en_name": "Omni Soul",
-        "desc": "Nhận 3 Linh Hồn Rồng ngẫu nhiên."
+        "desc": "Nhận @SoulsToAdd@ <attention>Linh Hồn Rồng</attention> ngẫu nhiên."
     },
     {
         "id": 20,
         "vn_name": "Ý Chí Thần Sứ",
         "en_name": "Dawnbringer's Resolve",
-        "desc": "Khi xuống dưới <scaleHealth>@HealthThreshold*100@% Máu</scaleHealth>, <healing>hồi lại @HealAmount*100@% Máu tối đa trong 3 giây</healing>.<br>"
+        "desc": "Khi còn dưới <scaleHealth>@HealthThreshold*100@% Máu</scaleHealth>, <healing>hồi lại @HealCalc@ trong vòng @HealDuration@ giây</healing>."
+    },
+    {
+        "id": 356,
+        "vn_name": "Đặc Quyền Phú Gia",
+        "en_name": "Silver Spoon",
+        "desc": "Tăng sát thương gây ra với mỗi <keywordMajor>%i:Augment% Nâng Cấp Bạc</keywordMajor> bạn sở hữu."
     },
     {
         "id": 207,
         "vn_name": "Không Động Đậy",
         "en_name": "Hold Very Still",
-        "desc": "Nhận <spellName>Chiến Tranh Du Kích</spellName>.<br><br><rules>Sau khi không di chuyển trong @HoldStillDuration@ giây, trở nên <keywordStealth>Vô Hình</keywordStealth> cho đến khi bạn di chuyển. Khi bạn thoát khỏi trạng thái <keywordStealth>Vô Hình</keywordStealth>, lần ra đòn đầu tiên của bạn gây thêm <magicDamage>sát thương phép</magicDamage>, nhận <attackSpeed>@BonusAS@ Tốc Độ Đánh và @BonusMS*100@% <movementSpeed>Tốc Độ Di Chuyển giảm dần</movementSpeed></attackSpeed>.</rules>"
+        "desc": "Nhận <spellName>Chiến Tranh Du Kích</spellName>. <br><br>Không di chuyển khiến bạn trở nên <keywordStealth>Tàng Hình</keywordStealth> cho đến khi bạn di chuyển. Thoát hiệu ứng <keywordStealth>Tàng Hình</keywordStealth> này sẽ khiến đòn đánh tiếp theo của bạn gây thêm <magicDamage>sát thương phép</magicDamage>."
     },
     {
         "id": 38,
@@ -819,19 +867,13 @@
         "id": 11,
         "vn_name": "Sao Mà Chạm Được",
         "en_name": "Can't Touch This",
-        "desc": "Sử dụng Chiêu Cuối sẽ khiến bạn trở nên <keywordMajor>Bất Tử</keywordMajor> trong một khoảng thời gian ngắn."
-    },
-    {
-        "id": 176,
-        "vn_name": "Trận Chiến Cầu Tuyết!",
-        "en_name": "Snowball Fight!",
-        "desc": "Thay thế phép bổ trợ Vọt Lẹ bằng Đánh Dấu.<br><br><rules>Ném một quả cầu tuyết gây sát thương và đánh dấu kẻ địch đầu tiên trúng chiêu. <recast>Tái kích hoạt</recast> để lướt tới mục tiêu bị đánh dấu.</rules>"
+        "desc": "Sử dụng <attention>Chiêu Cuối</attention> sẽ khiến bạn trở nên <keywordMajor>Bất Tử</keywordMajor> trong một khoảng thời gian ngắn."
     },
     {
         "id": 47,
         "vn_name": "Chí Mạng Đấy",
         "en_name": "It's Critical",
-        "desc": "Nhận <crit>@CritChance*100@% Tỉ Lệ Chí Mạng</crit>."
+        "desc": "Nhận <crit>%i:scaleCrit% @CritChance*100@% Tỉ Lệ Chí Mạng</crit>."
     },
     {
         "id": 200,
@@ -843,7 +885,7 @@
         "id": 112,
         "vn_name": "Chiêu Cuối Không Thể Cản Phá",
         "en_name": "Ultimate Unstoppable",
-        "desc": "Sau khi dùng Chiêu Cuối, bạn được miễn nhiễm khống chế trong @UnstoppableDuration@ giây. (@Cooldown@ giây hồi chiêu)."
+        "desc": "Sau khi dùng Chiêu Cuối, bạn được miễn nhiễm <status>khống chế</status> trong @UnstoppableDuration@ giây. (@Cooldown@ giây hồi chiêu)."
     },
     {
         "id": 68,
@@ -855,25 +897,25 @@
         "id": 228,
         "vn_name": "Cơn Bão Chỉ Số!",
         "en_name": "Stats on Stats on Stats!",
-        "desc": "Nhận @AmountOfStatAnvils@ Gói Trang Bị Chỉ Số!"
+        "desc": "Nhận @AmountOfStatAnvils@ %i:StatAnvil% Gói Trang Bị Chỉ Số!"
     },
     {
         "id": 22,
         "vn_name": "Khéo Léo",
         "en_name": "Deft",
-        "desc": "Nhận thêm @AttackSpeed*100@% <speed>Tốc Độ Đánh</speed>."
+        "desc": "Nhận %i:scaleAS% @AttackSpeed*100@% <speed>Tốc Độ Đánh</speed>."
     },
     {
         "id": 41,
         "vn_name": "Khổng Lồ Hóa",
         "en_name": "Goliath",
-        "desc": "Hóa lớn, nhận <scaleHealth>@HealthAmp*100@% Máu</scaleHealth> và <scaleAP>@ADAmp*100@% Sức Mạnh Thích Ứng</scaleAP>."
+        "desc": "Hóa lớn, nhận <scaleHealth>@HealthAmp*100@% Máu</scaleHealth> và <scaleAF>@AFAmp*100@% Sức Mạnh Thích Ứng</scaleAF>."
     },
     {
-        "id": 242,
-        "vn_name": "Ép Nước",
-        "en_name": "Juice Press",
-        "desc": "Nước ép sẽ cho bạn và đồng đội thêm các hiệu ứng.<br><br>Nước ép sẽ được giảm giá @PriceReduction*100@%."
+        "id": 367,
+        "vn_name": "Từ Chối Mạo Hiểm",
+        "en_name": "Abstain From Risk",
+        "desc": "<healing>Hồi lại @HealthRestorePercent@% máu</healing> bạn đã hiến tế cho Tahm Kench.<br><br>Nhận ngay một <keywordMajor>%i:Augment% Nâng Cấp Bạc</keywordMajor>."
     },
     {
         "id": 305,
@@ -891,13 +933,13 @@
         "id": 1,
         "vn_name": "Pháp Thuật Gia Tăng",
         "en_name": "Accelerating Sorcery",
-        "desc": "Sử dụng kỹ năng sẽ cho cộng dồn vô hạn Điểm Hồi Kỹ Năng, hiệu ứng này được đặt lại sau mỗi vòng."
+        "desc": "Sử dụng Kỹ Năng sẽ cho cộng dồn <scaleAbilityHaste>Điểm Hồi Kỹ Năng</scaleAbilityHaste>.<br><br><rules>Hiệu ứng này đặt lại sau mỗi vòng.</rules>"
     },
     {
         "id": 343,
         "vn_name": "Công Lý Thịnh Nộ",
         "en_name": "Righteous Fury",
-        "desc": "<healing>Hồi Máu</healing> hoặc <Shield>Tạo Lá Chắn</Shield> sẽ tăng sát thương Kỹ Năng của bạn thêm @SpellDamagePerStack*100@%, cộng dồn vô hạn trong vòng đấu."
+        "desc": "<healing>Hồi Máu</healing> hoặc <shield>Tạo Lá Chắn</shield> sẽ tăng sát thương Kỹ Năng của bạn thêm @SpellDamagePerStack*100@%, cộng dồn vô hạn trong vòng đấu."
     },
     {
         "id": 208,
@@ -909,13 +951,19 @@
         "id": 344,
         "vn_name": "Tràn Đầy Sinh Lực",
         "en_name": "Energetic",
-        "desc": "Nhận <keyword>Tích Điện</keyword> nhanh gấp đôi. Kích hoạt <keyword>Tích Điện</keyword> sẽ bắn ra <keywordMajor>Tên Lửa Ma Pháp</keywordMajor>, gây <trueDamage>sát thương chuẩn tương đương @MaxHealthDamagePerMissile*100@% Máu tối đa</trueDamage> dựa trên khoảng cách đã bay được."
+        "desc": "Nhận <keyword>Tích Điện</keyword> nhanh hơn @EnergizeAmpMovementCharge*100@%. Kích hoạt <keyword>Tích Điện</keyword> sẽ bắn ra <keywordMajor>Tên Lửa Ma Pháp</keywordMajor>, gây <trueDamage>sát thương chuẩn tương đương @MaxHealthDamagePerMissile*100@% Máu tối đa</trueDamage> dựa trên khoảng cách đã bay."
+    },
+    {
+        "id": 365,
+        "vn_name": "Từ Chối Giàu Sang",
+        "en_name": "Abstain From Wealth",
+        "desc": "<healing>Hồi lại @HealthRestorePercent@% máu</healing> bạn đã hiến tế cho Tahm Kench.<br><br>Nhận <gold>+%i:goldCoins% @GoldToGrant@ vàng</gold>."
     },
     {
         "id": 58,
         "vn_name": "Cú Đấm Thần Bí",
         "en_name": "Mystic Punch",
-        "desc": "{{ Item_Keyword_OnHit }} giảm hồi chiêu kỹ năng của bạn đi @CooldownRefund@ giây."
+        "desc": "{{ Item_Keyword_OnHit }} giảm hồi chiêu kỹ năng của bạn đi @CooldownRefund@ giây %i:scaleCooldown%."
     },
     {
         "id": 105,
@@ -933,7 +981,7 @@
         "id": 241,
         "vn_name": "Ăn Ba",
         "en_name": "Hat Trick",
-        "desc": "Ngay lập tức nhận được @HatsToGrant@ mũ, và giảm giá Nước Cappa đi @HatTrickPriceReduction@.<br>Nhận sát thương khiến Máu của bạn giảm xuống dưới @LowHealthThreshold*100@% sẽ cho bạn <speed>@MoveSpeedBoostPercent*100@% Tốc Độ Di Chuyển</speed> và <shield>@ShieldHealth@ Lá Chắn</shield> trong @ShieldDuration@ giây, nhưng sẽ mất đi 1 mũ. @Cooldown@ giây hồi chiêu."
+        "desc": "Lập tức nhận thêm @HatsToGrant@ <keywordMajor>mũ</keywordMajor> và giảm giá bán của <keywordMajor>Nước Cappa</keywordMajor> đi @HatTrickPriceReduction@.<br><br>Khi máu của bạn giảm xuống dưới @LowHealthThreshold*100@%, nhận <speed>Tốc Độ Di Chuyển</speed> và <shield>lá chắn</shield>, nhưng mất 1 <keywordMajor>mũ</keywordMajor>."
     },
     {
         "id": 181,
@@ -957,7 +1005,19 @@
         "id": 238,
         "vn_name": "Chuyển Đổi: Kim Cương",
         "en_name": "Transmute: Prismatic",
-        "desc": "Nhận 1 Nâng Cấp Kim Cương ngẫu nhiên."
+        "desc": "Nhận <keywordMajor>%i:Augment% Nâng Cấp Kim Cương</keywordMajor> ngẫu nhiên."
+    },
+    {
+        "id": 370,
+        "vn_name": "Khao Khát Mạo Hiểm",
+        "en_name": "Craving For Risk",
+        "desc": "Hiến tế <scaleHealth>@HealthReductionPercent@% máu tối đa của bạn</scaleHealth> cho Tahm Kench. <br><br>Tổng lượng hiến tế của bạn sẽ tăng thành <scaleHealth>-@MaxHealthReduction@% máu tối đa</scaleHealth>.<br><br>Nhận 1 <keywordMajor>%i:Augment% Nâng Cấp Vàng</keywordMajor>."
+    },
+    {
+        "id": 371,
+        "vn_name": "Khát Vọng Tài Phú",
+        "en_name": "Compulsion For Wealth",
+        "desc": "Hiến tế <scaleHealth>@HealthReductionPercent@% máu tối đa của bạn</scaleHealth> cho Tahm Kench. <br><br>Tổng lượng hiến tế của bạn sẽ tăng thành <scaleHealth>-@MaxHealthReduction@% máu tối đa</scaleHealth>.<br><br>Nhận <gold>+%i:goldCoins% @GoldToGrant@ vàng</gold>."
     },
     {
         "id": 40,
@@ -969,13 +1029,13 @@
         "id": 118,
         "vn_name": "Hồi Máu Chí Mạng",
         "en_name": "Critical Healing",
-        "desc": "<healing>Hồi Máu</healing> và <shield>Lá Chắn</shield> của bạn có thể Chí Mạng tăng thêm @CritHeal*100@%. Nhận @CritChance*100@% Tỉ Lệ Chí Mạng. "
+        "desc": "<healing>Hồi Máu</healing> và <shield>Lá Chắn</shield> của bạn có thể <crit>Chí Mạng</crit> để tăng thêm @CriticalHealCalc@.<br><br>Nhận <crit>%i:scaleCrit% @CritChance*100@% Tỉ Lệ Chí Mạng</crit>. "
     },
     {
         "id": 237,
         "vn_name": "Chuyển Đổi: Vàng",
         "en_name": "Transmute: Gold",
-        "desc": "Nhận 1 Nâng Cấp Vàng ngẫu nhiên."
+        "desc": "Nhận <keywordMajor>%i:Augment% Nâng Cấp Vàng</keywordMajor> ngẫu nhiên."
     },
     {
         "id": 2,
@@ -990,16 +1050,22 @@
         "desc": "Khi xuống dưới <scaleHealth>@HealthThreshold*100@% Máu</scaleHealth>, <keywordStealth>Tàng Hình</keywordStealth> trong thoáng chốc và tạo 4 bản sao của bản thân."
     },
     {
+        "id": 345,
+        "vn_name": "Cô Gái Phép Thuật",
+        "en_name": "Magical Girl",
+        "desc": "Mỗi vòng, một ngôi sao sẽ rơi xuống, nhặt nó sẽ biến bạn thành một Cô Gái Phép Thuật hùng mạnh.<br><br>Khi là Cô Gái Phép Thuật, các vì sao sẽ trút xuống xung quanh bạn và kẻ địch của bạn, gây <magicDamage>sát thương phép</magicDamage>."
+    },
+    {
         "id": 218,
         "vn_name": "Kẻ Báng Bổ",
         "en_name": "Desecrator",
-        "desc": "<status>Làm Bất Động</status> tướng địch sẽ cho bạn <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> vĩnh viễn. Nhận <armor>Giáp</armor> và <magicresistance>Kháng Phép</magicresistance> dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn.<br><br>Lượng <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> tối đa bạn có thể nhận mỗi vòng sẽ tăng theo tổng số nguồn <keywordMajor>Nguyền Rủa</keywordMajor> giữa bạn và đồng đội của bạn."
+        "desc": "<status>Làm Bất Động</status> tướng địch sẽ cho bạn <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> vĩnh viễn. Nhận <scaleArmor>Giáp</scaleArmor> và <scaleMR>Kháng Phép</scaleMR> dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn."
     },
     {
         "id": 141,
         "vn_name": "Dành Hết Cho Bạn",
         "en_name": "All For You",
-        "desc": "Khả năng <healing>Hồi Máu</healing> và <shield>Tạo Lá Chắn</shield> của bạn sẽ mạnh hơn @HealShieldAmp*100@% khi sử dụng lên đồng đội."
+        "desc": "Khả năng <healing>Hồi Máu</healing> và <shield>Tạo Lá Chắn</shield> của bạn sẽ mạnh hơn khi sử dụng lên đồng đội."
     },
     {
         "id": 50,
@@ -1014,22 +1080,16 @@
         "desc": "Chiếu một tia laser về phía bạn đang hướng về, liên tục gây <magicDamage>sát thương phép</magicDamage>."
     },
     {
-        "id": 326,
-        "vn_name": "Linh Hồn Hộ Mệnh",
-        "en_name": "Spirit Infusion",
-        "desc": "Nhận Sức Mạnh Lá Chắn và Hồi Máu, tăng thêm khi còn thấp Máu. Khi thi triển Chiêu Cuối, nhân đôi Sức Mạnh Lá Chắn và Hồi Máu của bạn."
-    },
-    {
         "id": 227,
         "vn_name": "Bội Thu Chỉ Số!",
         "en_name": "Stats on Stats!",
-        "desc": "Nhận @AmountOfStatAnvils@ Gói Trang Bị Chỉ Số!"
+        "desc": "Nhận @AmountOfStatAnvils@ %i:StatAnvil% Gói Trang Bị Chỉ Số!"
     },
     {
         "id": 19,
         "vn_name": "Thân Thủ Lả Lướt",
         "en_name": "Dashing",
-        "desc": "Kỹ Năng lướt, nhảy hoặc dịch chuyển của bạn sẽ nhận thêm @Haste@ Điểm Hồi Kỹ Năng."
+        "desc": "Kỹ Năng lướt, nhảy hoặc dịch chuyển của bạn được nhận <scaleAbilityHaste>@Haste@ Điểm Hồi Kỹ Năng</scaleAbilityHaste>."
     },
     {
         "id": 229,
@@ -1047,7 +1107,7 @@
         "id": 314,
         "vn_name": "Phá Xiềng",
         "en_name": "Unshackled",
-        "desc": "Bạn có thể thi triển <spellName>Tước Đoạt</spellName> lên đồng đội của mình. Nhận @UltimateHaste@ Điểm Hồi Chiêu Cuối."
+        "desc": "Giờ bạn có thể <spellName>Tước Đoạt</spellName> chiêu cuối của đồng đội.<br><br>Khi hạ gục, giảm thời gian khóa và hồi chiêu của <spellName>Tước Đoạt</spellName> đi @TakedownRefund*100@%.<br><br>Nhận @UltimateHaste@ Điểm Hồi Chiêu Cuối."
     },
     {
         "id": 69,
@@ -1059,13 +1119,13 @@
         "id": 113,
         "vn_name": "Xạ Thủ Kỳ Cựu",
         "en_name": "Skilled Sniper",
-        "desc": "Đánh trúng kẻ địch ở xa bằng một kỹ năng cơ bản sẽ giảm Hồi Chiêu của kỹ năng đó đi @ReducedCooldown@ giây (@PeriodicReductionAmount@ với Kỹ Năng gây sát thương theo thời gian)."
+        "desc": "Đánh trúng kẻ địch ở xa bằng một <keywordMajor>Kỹ Năng Cơ Bản</keywordMajor> sẽ giảm mạnh Hồi Chiêu của kỹ năng đó. "
     },
     {
         "id": 175,
         "vn_name": "Quan Hệ Ký Sinh",
         "en_name": "Parasitic Relationship",
-        "desc": "<healing>Hồi máu bằng @HealPercent*100@%</healing> lượng sát thương gây ra bởi đồng đội của bạn."
+        "desc": "{{ Cherry_ParasiticRelationship@TeamSize@_Summary }}"
     },
     {
         "id": 165,
@@ -1077,7 +1137,7 @@
         "id": 134,
         "vn_name": "Rút Kiếm Ra",
         "en_name": "Draw Your Sword",
-        "desc": "Bạn trở thành tướng cận chiến. Nhận <physicalDamage>@BonusAD*100@% Sức Mạnh Công Kích</physicalDamage>, <healing>@BonusHP*100@% Máu</healing>, <attackSpeed>@BonusAS*100@% Tốc Độ Đánh</attackSpeed>, <lifesteal>@BonusLifesteal*100@% Hút Máu</lifesteal> và <speed>@BonusMS*100@% Tốc Độ Di Chuyển</speed> (chỉ số cộng thêm sẽ tăng theo Tầm Đánh bị mất)."
+        "desc": "Bạn trở thành tướng cận chiến. <br><br>Nhận thêm <physicalDamage>Sức Mạnh Công Kích</physicalDamage>, <healing>Máu</healing>, <attackSpeed>Tốc Độ Đánh</attackSpeed>, <lifesteal>Hút Máu</lifesteal> và <speed>Tốc Độ Di Chuyển</speed> dựa trên lượng Tầm Đánh bạn đã mất."
     },
     {
         "id": 70,
@@ -1101,31 +1161,49 @@
         "id": 7,
         "vn_name": "Vũ Lực",
         "en_name": "Blunt Force",
-        "desc": "Nhận <scaleAD>@ADAmp*100@% Sức Mạnh Công Kích</scaleAD>."
+        "desc": "Nhận %i:scaleAD% <scaleAD>@ADAmp*100@% Sức Mạnh Công Kích</scaleAD>."
+    },
+    {
+        "id": 346,
+        "vn_name": "Bánh Kẹp Bánh Mì",
+        "en_name": "Bread Sandwich",
+        "desc": "Nhận @AbilityHaste@ Điểm Hồi Kỹ Năng.<br><br>Thi triển một kỹ năng sẽ cho @MoveSpeedAmp*100@% trong @MSDuration@ giây."
     },
     {
         "id": 109,
         "vn_name": "Thệ Ước",
         "en_name": "Oathsworn",
-        "desc": "Thay thế phép bổ trợ Vọt Lẹ bằng <spellName>Định Mệnh Vẫy Gọi</spellName>.<br><br><rules><spellName>Định Mệnh Vẫy Gọi</spellName> giúp đồng minh của bạn trở nên Không Thể Bị Chỉ Định trong tối đa 4 giây. Đồng minh của bạn có thể tự mình phóng ra, khiến kẻ địch bị <status>Đẩy Lùi</status>.</rules>"
-    },
-    {
-        "id": 187,
-        "vn_name": "Lựu Đạn Mù",
-        "en_name": "Flashbang",
-        "desc": "Sử dụng Tốc Biến sẽ kích hoạt một vụ nổ ra xung quanh, gây <magicDamage>sát thương phép</magicDamage> và <status>Làm Chậm</status> kẻ địch trúng chiêu. Ngoài ra, Tốc Biến sẽ hồi lại sau mỗi vòng."
+        "desc": "Thay thế <spellName>Vọt Lẹ</spellName> bằng <spellName>Định Mệnh Vẫy Gọi</spellName>.<br><br><rules><spellName>Định Mệnh Vẫy Gọi</spellName> giúp đồng minh của bạn trở nên Không Thể Bị Chỉ Định trong tối đa 4 giây. Đồng minh của bạn có thể tự mình phóng ra, khiến kẻ địch bị <status>Đẩy Lùi</status>.</rules><br>"
     },
     {
         "id": 336,
         "vn_name": "Nhắm Thẳng Đầu",
         "en_name": "Aim for the Head",
-        "desc": "Nhận @CritChanceBonus*100@% Tỉ Lệ Chí Mạng và @CritDamageBonus*100@% Sát Thương Chí Mạng. Tỉ Lệ Chí Mạng của bạn tối đa là @CritChanceCeiling*100@%.<br><br>Chuyển đổi @CritChanceToDamageRatio*100@% Tỉ Lệ Chí Mạng vượt @CritChanceCeiling*100@% thành Sát Thương Chí Mạng."
+        "desc": "<crit>Tỉ Lệ Chí Mạng</crit> của bạn bị giới hạn tối đa ở mức @CritChanceCeiling*100@%. Chuyển đổi <crit>@CritChanceToDamageRatio*100@% Tỉ Lệ Chí Mạng</crit> vượt @CritChanceCeiling*100@% thành Sát Thương Chí Mạng.<br><br>Nhận <crit>@CritChanceBonus*100@% Tỉ Lệ Chí Mạng</crit> và <crit>@CritDamageBonus*100@% Sát Thương Chí Mạng</crit>. "
+    },
+    {
+        "id": 355,
+        "vn_name": "Nhận Gói Trang Bị Chỉ Số",
+        "en_name": "Gain Stat Anvil",
+        "desc": "Nhận 1 %i:StatAnvil% Gói Trang Bị Chỉ Số ngẫu nhiên."
+    },
+    {
+        "id": 358,
+        "vn_name": "Sói Cuồng Loạn",
+        "en_name": "Wolf's Frenzy",
+        "desc": "Mất khả năng hồi sinh bẩm sinh. <br><br>Tăng <scaleHealth>Máu của bạn lên @HealthPercentageMod*100@%</scaleHealth>.<br><br>Nếu bạn gây sát thương khiến một tướng còn dưới <scaleHealth>@ExecuteThreshold*100@% máu tối đa</scaleHealth>, hành quyết chúng."
+    },
+    {
+        "id": 366,
+        "vn_name": "Từ Chối Sức Mạnh",
+        "en_name": "Abstain From Power",
+        "desc": "<healing>Hồi lại @HealthRestorePercent@% máu</healing> bạn đã hiến tế cho Tahm Kench.<br><br>Nhận <keywordMajor>@AnvilsGranted@ Gói Trang Bị Chỉ Số Bạc</keywordMajor>."
     },
     {
         "id": 123,
         "vn_name": "Vòng Quay Anh Hùng",
         "en_name": "Summoner's Roulette",
-        "desc": "Thay thế Phép Bổ Trợ của bạn bằng các phép bổ trợ ngẫu nhiên. Khi bạn sử dụng một Phép Bổ Trợ, thay thế nó bằng một phép bổ trợ ngẫu nhiên khác với @Cooldown@ giây Hồi Chiêu."
+        "desc": "Thay thế <attention>Phép Bổ Trợ</attention> của bạn bằng các phép bổ trợ ngẫu nhiên. <br><br>Khi bạn sử dụng một <attention>Phép Bổ Trợ</attention>, thay thế nó bằng một phép bổ trợ ngẫu nhiên khác với @Cooldown@ giây Hồi Chiêu."
     },
     {
         "id": 302,
@@ -1137,7 +1215,7 @@
         "id": 74,
         "vn_name": "Tia Thu Nhỏ",
         "en_name": "Shrink Ray",
-        "desc": "Đòn Đánh của bạn làm giảm @DamageReduction*100@% sát thương của kẻ địch trong 3 giây."
+        "desc": "Đòn Đánh của bạn giảm sát thương và kích thước của mục tiêu đi @DamageReduction*100@% {{ Item_Keyword_OnHit }}."
     },
     {
         "id": 12,
@@ -1167,13 +1245,13 @@
         "id": 222,
         "vn_name": "Thành Quả Lao Động",
         "en_name": "Fruits of Your Labor",
-        "desc": "Hiệu lực của Hoa Sức Mạnh sẽ mạnh hơn @AmpAmountTooltip@% đối với bạn và được chia sẻ với đồng đội của bạn."
+        "desc": "Hiệu lực của Hoa Sức Mạnh sẽ mạnh hơn @AmpAmount*100@% đối với bạn và được chia sẻ với đồng đội của bạn."
     },
     {
         "id": 46,
         "vn_name": "Linh Hồn Hỏa Ngục",
         "en_name": "Infernal Soul",
-        "desc": "Bạn nhận Linh Hồn Hỏa Ngục, gây thêm sát thương khi đánh trúng kẻ địch bằng Kỹ Năng hoặc Đòn Đánh."
+        "desc": "Bạn nhận Linh Hồn Rồng Lửa, gây thêm sát thương khi đánh trúng kẻ địch bằng Kỹ Năng hoặc Đòn Đánh."
     },
     {
         "id": 16,
@@ -1185,7 +1263,7 @@
         "id": 215,
         "vn_name": "Chúc Phúc Hắc Ám",
         "en_name": "Dark Blessing",
-        "desc": "Hồi Máu/Tạo Lá Chắn sẽ cho bạn <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> vĩnh viễn. Nhận Điểm Hồi Kỹ Năng dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn.<br><br>Lượng <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> tối đa bạn có thể nhận mỗi vòng sẽ tăng theo tổng số nguồn <keywordMajor>Nguyền Rủa</keywordMajor> giữa bạn và đồng đội của bạn."
+        "desc": "<healing>Hồi Máu</healing> hoặc <shield>Tạo Lá Chắn</shield> cho một đồng minh sẽ cho bạn <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> vĩnh viễn. Nhận Điểm Hồi Kỹ Năng dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn."
     },
     {
         "id": 56,
@@ -1197,13 +1275,13 @@
         "id": 211,
         "vn_name": "Đến Giờ Đồ Sát",
         "en_name": "It's Killing Time",
-        "desc": "Sau khi thi triển Chiêu Cuối, đánh dấu án tử lên tất cả tướng địch. Trong khi đánh dấu, dấu ấn này tích trữ một phần sát thương gây ra lên chúng và phát nổ khi hết thời gian."
+        "desc": "Sau khi thi triển <keywordMajor>Chiêu Cuối</keywordMajor>, đánh dấu án tử lên tất cả tướng địch. <br><br>Trong khi đánh dấu, tích trữ sát thương gây lên chúng và kích nổ sát thương khi hết thời gian."
     },
     {
         "id": 96,
         "vn_name": "Gừng Càng Già Càng Cay",
         "en_name": "Wisdom of Ages",
-        "desc": "Tăng ngay 1 cấp và tăng thêm 1 cấp sau mỗi 2 vòng đấu. Bạn không còn bị giới hạn cấp độ.<br><br>Nếu được chọn làm Nâng Cấp thứ hai của bạn, tăng 3 cấp."
+        "desc": "Tăng ngay 1 cấp và tăng thêm 1 cấp sau mỗi 2 vòng đấu. <br><br>Bạn không còn bị giới hạn cấp độ.<br><br><rules>Nếu nhận sau vòng @RoundCounterForBonus@, tăng thêm @BonusForLatePick@ cấp nữa.</rules>"
     },
     {
         "id": 304,
@@ -1221,19 +1299,19 @@
         "id": 64,
         "vn_name": "Bền Bỉ",
         "en_name": "Perseverance",
-        "desc": "Nhận lượng lớn <healing>Hồi Phục</healing>, <scaleHealth>Máu</scaleHealth> càng thấp hồi càng nhiều."
+        "desc": "Nhận lượng lớn <healing>Hồi Máu</healing>, tăng thêm khi thấp <scaleHealth>Máu</scaleHealth>."
     },
     {
         "id": 48,
         "vn_name": "Găng Bảo Thạch",
         "en_name": "Jeweled Gauntlet",
-        "desc": "Kỹ năng của bạn có thể chí mạng. Nhận @CritChance*100@% Tỉ Lệ Chí Mạng."
+        "desc": "Kỹ năng của bạn có thể <crit>Chí Mạng</crit>. <br><br>Nhận <crit>%i:scaleCrit% @CritGranted@ Tỉ Lệ Chí Mạng</crit>."
     },
     {
         "id": 309,
         "vn_name": "Rìu Của Ta!",
         "en_name": "And My Axe!",
-        "desc": "<keywordMajor>Thi Triển Tự Động</keywordMajor>: <br>Định kỳ ném rìu vào kẻ địch gần nhất, gây sát thương, làm chậm, đồng thời làm giảm giáp và kháng phép của kẻ địch. Giảm thời gian hồi chiêu nếu rìu được nhặt lên."
+        "desc": "<keywordMajor>Thi Triển Tự Động</keywordMajor>: <br>Định kỳ ném rìu vào kẻ địch gần nhất, gây <physicalDamage>sát thương vật lý</physicalDamage>, <status>làm chậm</status>, đồng thời làm giảm <scaleArmor>giáp</scaleArmor> và <scaleMR>kháng phép</scaleMR> của chúng. Nhặt chiếc rìu sẽ giảm Hồi Chiêu của nó."
     },
     {
         "id": 1205,
@@ -2184,6 +2262,18 @@
         "desc": ""
     },
     {
+        "id": 388,
+        "vn_name": "Dòng Chảy Sắc Màu",
+        "en_name": "Chroma Flux",
+        "desc": ""
+    },
+    {
+        "id": 377,
+        "vn_name": "Cơm Chiên Thập Cẩm",
+        "en_name": "Combination Fried Rice",
+        "desc": ""
+    },
+    {
         "id": 2024,
         "vn_name": "Thi Triển & Chí Mạng",
         "en_name": "Crit 'n Cast",
@@ -2199,6 +2289,12 @@
         "id": 1328,
         "vn_name": "Nhịp Điệu Chí Mạng",
         "en_name": "Critical Rhythm",
+        "desc": ""
+    },
+    {
+        "id": 383,
+        "vn_name": "Ma Trảo",
+        "en_name": "Demonic Clasp",
         "desc": ""
     },
     {
@@ -2316,6 +2412,12 @@
         "desc": ""
     },
     {
+        "id": 380,
+        "vn_name": "Nhân Từ",
+        "en_name": "Mercy",
+        "desc": ""
+    },
+    {
         "id": 1314,
         "vn_name": "Lá Chắn Hùng Mạnh",
         "en_name": "Mighty Shield",
@@ -2370,6 +2472,30 @@
         "desc": ""
     },
     {
+        "id": 374,
+        "vn_name": "Cơm Gà",
+        "en_name": "Rice and Chicken",
+        "desc": ""
+    },
+    {
+        "id": 375,
+        "vn_name": "Cơm Cá",
+        "en_name": "Rice and Fish",
+        "desc": ""
+    },
+    {
+        "id": 376,
+        "vn_name": "Cơm Thịt Heo",
+        "en_name": "Rice and Pork",
+        "desc": ""
+    },
+    {
+        "id": 381,
+        "vn_name": "Thu Gom Phế Liệu",
+        "en_name": "Scavenger",
+        "desc": ""
+    },
+    {
         "id": 1373,
         "vn_name": "Động Cơ Thu Nhỏ",
         "en_name": "Shrink Engine",
@@ -2400,6 +2526,12 @@
         "desc": ""
     },
     {
+        "id": 384,
+        "vn_name": "Chế Tác Phép",
+        "en_name": "Spellcraft",
+        "desc": ""
+    },
+    {
         "id": 1315,
         "vn_name": "Nhanh & An Toàn",
         "en_name": "Swift and Safe",
@@ -2412,6 +2544,18 @@
         "desc": ""
     },
     {
+        "id": 378,
+        "vn_name": "Chuyển Đổi: Bạc",
+        "en_name": "Transmute: Silver",
+        "desc": ""
+    },
+    {
+        "id": 389,
+        "vn_name": "Phế Vật Thành Báu Vật",
+        "en_name": "Trash To Treasure",
+        "desc": ""
+    },
+    {
         "id": 1415,
         "vn_name": "Ngọn Lửa Song Sinh",
         "en_name": "Twin Fire",
@@ -2421,6 +2565,12 @@
         "id": 1349,
         "vn_name": "Thức Tỉnh Tối Thượng",
         "en_name": "Ultimate Awakening",
+        "desc": ""
+    },
+    {
+        "id": 390,
+        "vn_name": "Biến Đổi Bất Ổn",
+        "en_name": "Unstable Transmutation",
         "desc": ""
     },
     {
@@ -2454,6 +2604,12 @@
         "desc": ""
     },
     {
+        "id": 379,
+        "vn_name": "Cháy Rừng",
+        "en_name": "Wild Fire",
+        "desc": ""
+    },
+    {
         "id": 1316,
         "vn_name": "Gió Dưới Lưỡi Kiếm",
         "en_name": "Wind Beneath Blade",
@@ -2463,6 +2619,12 @@
         "id": 1386,
         "vn_name": "Đi Đu Đưa Đi",
         "en_name": "Spin Me Right Round",
+        "desc": ""
+    },
+    {
+        "id": 332,
+        "vn_name": "Pháp Sư Máu",
+        "en_name": "Blood Mage",
         "desc": ""
     },
     {
@@ -2478,9 +2640,27 @@
         "desc": ""
     },
     {
+        "id": 315,
+        "vn_name": "Bình Luận Viên Nhiệt Huyết",
+        "en_name": "Energetic Caster",
+        "desc": ""
+    },
+    {
+        "id": 328,
+        "vn_name": "Xiềng Xích Địa Ngục",
+        "en_name": "Infernal Chains",
+        "desc": ""
+    },
+    {
         "id": 31,
         "vn_name": "Khơi Dậy",
         "en_name": "Evocation",
+        "desc": ""
+    },
+    {
+        "id": 187,
+        "vn_name": "Lựu Đạn Mù",
+        "en_name": "Flashbang",
         "desc": ""
     },
     {
@@ -2490,9 +2670,33 @@
         "desc": ""
     },
     {
+        "id": 334,
+        "vn_name": "Phân Thân",
+        "en_name": "Hallucinate",
+        "desc": ""
+    },
+    {
+        "id": 338,
+        "vn_name": "Tư Duy Bầy Ong",
+        "en_name": "Hive Mind",
+        "desc": ""
+    },
+    {
+        "id": 242,
+        "vn_name": "Ép Nước",
+        "en_name": "Juice Press",
+        "desc": ""
+    },
+    {
         "id": 55,
         "vn_name": "Bóng Đêm Hỏa Tốc",
         "en_name": "Midnight Express",
+        "desc": ""
+    },
+    {
+        "id": 331,
+        "vn_name": "Công Cụ Đa Dụng",
+        "en_name": "Multitool",
         "desc": ""
     },
     {
@@ -2502,15 +2706,45 @@
         "desc": ""
     },
     {
+        "id": 329,
+        "vn_name": "Vu Sư",
+        "en_name": "Necromancer",
+        "desc": ""
+    },
+    {
         "id": 306,
         "vn_name": "Phản Đòn",
         "en_name": "Parry",
         "desc": ""
     },
     {
+        "id": 170,
+        "vn_name": "Lắp Kính Nhắm",
+        "en_name": "Scoped Weapons",
+        "desc": ""
+    },
+    {
+        "id": 71,
+        "vn_name": "Lắp Kính Nhắm Cỡ Lớn",
+        "en_name": "Scopier Weapons",
+        "desc": ""
+    },
+    {
         "id": 307,
         "vn_name": "Phi Tiêu Ngủ",
         "en_name": "Sleep Dart",
+        "desc": ""
+    },
+    {
+        "id": 176,
+        "vn_name": "Trận Chiến Cầu Tuyết!",
+        "en_name": "Snowball Fight!",
+        "desc": ""
+    },
+    {
+        "id": 326,
+        "vn_name": "Linh Hồn Hộ Mệnh",
+        "en_name": "Spirit Infusion",
         "desc": ""
     },
     {
