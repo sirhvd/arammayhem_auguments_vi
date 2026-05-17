@@ -696,6 +696,12 @@
         "desc": "Khi bạn gây sát thương bằng một Đòn Đánh, Kỹ Năng tiếp theo của bạn gây thêm @AbilityBoost*100@% sát thương.<br><br>Khi bạn gây sát thương bằng một Kỹ Năng, Đòn Đánh tiếp theo của bạn gây thêm @AttackBoost*100@% sát thương."
     },
     {
+        "id": 338,
+        "vn_name": "Tư Duy Bầy Ong",
+        "en_name": "Hive Mind",
+        "desc": "Bắt đầu mỗi vòng đấu với @StartingBees@ Ong, nhận thêm Ong khi thu hoạch hoa. Gây sát thương lên tướng địch sẽ phóng Ong gây <magicDamage>@BeeDamage@ sát thương phép</magicDamage> trong vòng @DebuffDuration@ giây khi tới đích, sau đó quay lại với bạn.<br>"
+    },
+    {
         "id": 319,
         "vn_name": "Nhiệm Vụ: Tam Vật Thiêng",
         "en_name": "Quest: Three Sacred Treasures",
@@ -1095,7 +1101,7 @@
         "id": 229,
         "vn_name": "Thanh Lý Toàn Bộ",
         "en_name": "Fire Sale",
-        "desc": "Lập tức bán đi tất cả các trang bị không thuộc nhiệm vụ ở @SellValueTooltip@% giá gốc. Quá hời cho tất cả các gói trang bị giảm giá kia."
+        "desc": "Lập tức bán đi tất cả trang bị không thuộc nhiệm vụ ở @SellValueTooltip@% giá gốc. <br><br>Quá hời cho tất cả các gói trang bị giảm giá kia."
     },
     {
         "id": 52,
@@ -1167,7 +1173,7 @@
         "id": 346,
         "vn_name": "Bánh Kẹp Bánh Mì",
         "en_name": "Bread Sandwich",
-        "desc": "Nhận @AbilityHaste@ Điểm Hồi Kỹ Năng.<br><br>Thi triển một kỹ năng sẽ cho @MoveSpeedAmp*100@% trong @MSDuration@ giây."
+        "desc": "Nhận @AbilityHaste@ Điểm Hồi Kỹ Năng.<br><br>Thi triển một kỹ năng sẽ cho @MoveSpeedAmp*100@% tốc độ di chuyển trong @MSDuration@ giây."
     },
     {
         "id": 109,
@@ -2460,6 +2466,12 @@
         "desc": ""
     },
     {
+        "id": 391,
+        "vn_name": "Làm Giàu Từ Bàn Tay Trắng",
+        "en_name": "Rags to Riches",
+        "desc": ""
+    },
+    {
         "id": 1330,
         "vn_name": "Tái Nạp Năng Lượng",
         "en_name": "ReEnergize",
@@ -2673,12 +2685,6 @@
         "id": 334,
         "vn_name": "Phân Thân",
         "en_name": "Hallucinate",
-        "desc": ""
-    },
-    {
-        "id": 338,
-        "vn_name": "Tư Duy Bầy Ong",
-        "en_name": "Hive Mind",
         "desc": ""
     },
     {
