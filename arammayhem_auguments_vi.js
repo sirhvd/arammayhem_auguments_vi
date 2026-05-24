@@ -46,8 +46,7 @@
                 data.forEach(item => {
                     idMap.set(Number(item.id), item);
                     if (item.en_name) {
-                      nameMap.set(item.en_name.toLowerCase().replace(/[\s]/g, ''), item);
-                      nameMap.set(item.en_name.toLowerCase().replace(/[\s']/g, ''), item);
+                        nameMap.set(item.en_name.toLowerCase().replace(/[^a-zA-Z]/g, ""), item);
                     }
                 });
 
@@ -121,7 +120,7 @@
                 document.querySelectorAll(selector).forEach(el => {
 
                     if (el.innerText === "Void Immolation") el.innerText = "Quest: Icathia's Fall";
-                    const info = maps.nameMap.get(el.innerText.toLowerCase().replace(/[\s]/g, ''));
+                    const info = maps.nameMap.get(el.innerText.toLowerCase().replace(/[^a-zA-Z]/g, ""));
                     if (info) replaceText(el, info);
                 });
             }
