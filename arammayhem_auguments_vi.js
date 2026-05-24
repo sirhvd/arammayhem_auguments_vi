@@ -1,15 +1,16 @@
 // ==UserScript==
 // @name         ARAM Mayhem Augments - Vietnamese Translator
 // @namespace    https://github.com/sirhvd/arammayhem_auguments_vi
-// @version      1.1
+// @version      1.2
 // @description  Việt hóa tên và mô tả các Lõi (Augments) trên MetaSrc.
 // @author       HVD
 // @match        https://www.metasrc.com/lol/arena/build/*
 // @match        https://www.metasrc.com/lol/mayhem/build/*
 // @match        https://www.metasrc.com/lol/arena/tier-list/augments
 // @match        https://www.metasrc.com/lol/mayhem/tier-list/augments
-// @match        https://arammayhem.com/champions/*/
-// @match        https://arammayhem.com/combo/
+// @match        https://arammayhem.com/augments/
+// @match        https://arammayhem.com/build/*
+// @match        https://arammayhem.com/combo/*
 // @match        https://arammayhem.com/tools/ryze-simulator/
 // @match        https://arammayhem.com/tools/vladimir-simulator/
 // @grant        GM_xmlhttpRequest
@@ -17,6 +18,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=metasrc.com
 // @homepageURL  https://github.com/sirhvd/arammayhem_auguments_vi
 // @downloadURL  https://raw.githubusercontent.com/sirhvd/arammayhem_auguments_vi/main/arammayhem_auguments_vi.js
+// @updateURL    https://raw.githubusercontent.com/sirhvd/arammayhem_auguments_vi/main/arammayhem_auguments_vi.meta.js
 // @run-at       document-start
 // @license      MIT
 // ==/UserScript==
@@ -28,7 +30,7 @@
 
     const replaceText = (el, info) => {
         if (!el || el.dataset.translated) return;
-        el.innerText = `${el.innerText} (${info.vn_name})`;
+        el.innerText = `${el.innerText}\n${info.vn_name}`;
         el.dataset.translated = "true";
     };
 
@@ -43,7 +45,10 @@
 
                 data.forEach(item => {
                     idMap.set(Number(item.id), item);
-                    if (item.en_name) nameMap.set(item.en_name.toLowerCase().trim(), item);
+                    if (item.en_name) {
+                      nameMap.set(item.en_name.toLowerCase().replace(/[\s]/g, ''), item);
+                      nameMap.set(item.en_name.toLowerCase().replace(/[\s']/g, ''), item);
+                    }
                 });
 
                 resolve({ idMap, nameMap });
@@ -102,17 +107,21 @@
             const path = location.pathname;
             let selector = "";
 
-            if (path.includes('/champions/')) {
-                selector = 'div.flex.flex-wrap.items-center.gap-2 > span.font-medium:nth-child(1):not(.text-foreground)';
+            if (path.includes('/build/')) {
+                selector = 'a:is([href*="/augments/"], [href*="/combo/"]) span.font-medium:not([data-slot], [class*="text-stat-"])';
             } else if (path.endsWith('/combo/')) {
                 selector = 'div.flex-1.min-w-0 > a > div > span:nth-child(1)';
+            } else if (path.endsWith('/augments/')) {
+                selector = 'a[href*="/augments/"] h3';
             } else if (path.includes('-simulator/')) {
                 selector = 'div.flex.items-center.justify-between.gap-2 > div > div';
             }
 
             if (selector) {
                 document.querySelectorAll(selector).forEach(el => {
-                    const info = maps.nameMap.get(el.innerText.toLowerCase().trim());
+
+                    if (el.innerText === "Void Immolation") el.innerText = "Quest: Icathia's Fall";
+                    const info = maps.nameMap.get(el.innerText.toLowerCase().replace(/[\s]/g, ''));
                     if (info) replaceText(el, info);
                 });
             }
