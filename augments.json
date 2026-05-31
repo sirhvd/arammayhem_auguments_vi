@@ -12,6 +12,12 @@
         "desc": "Nhận Phép Bổ Trợ <spellName>Tan Biến</spellName>.<br><br><rules><spellName>Tan Biến</spellName> cho phép bạn <keywordStealth>Tàng Hình</keywordStealth>.</rules>"
     },
     {
+        "id": 347,
+        "vn_name": "Bình Thải Hóa Dược",
+        "en_name": "Chemtech Putrifier",
+        "desc": "Tất cả sát thương bạn gây ra sẽ áp dụng <keyword>Vết Thương Sâu</keyword>."
+    },
+    {
         "id": 359,
         "vn_name": "Cừu Cứu Sinh",
         "en_name": "Lamb's Respite",
@@ -102,6 +108,12 @@
         "desc": "Sau mỗi vài giây, <keywordMajor>Thi Triển Tự Động</keywordMajor> một ánh sáng bảo hộ, <shield>Tạo Lá Chắn</shield> cho bản thân và những đồng đội nó đi qua trước khi trở về, lặp lại hiệu ứng một lần nữa."
     },
     {
+        "id": 351,
+        "vn_name": "Búa Băng",
+        "en_name": "Frozen Mallet",
+        "desc": "Gây sát thương sẽ <status>Làm Chậm</status> kẻ địch."
+    },
+    {
         "id": 318,
         "vn_name": "Nhiệm Vụ: Chúa Mũ",
         "en_name": "Quest: Mad Hatter",
@@ -184,6 +196,12 @@
         "vn_name": "Phục Hận",
         "en_name": "Vengeance",
         "desc": "{{ Cherry_Vengeance@TeamSize@_Summary }}"
+    },
+    {
+        "id": 348,
+        "vn_name": "Huyết Đao",
+        "en_name": "Bloodrazor",
+        "desc": "Gây sát thương sẽ gây thêm sát thương vật lý tương đương <physicalDamage>@MaxHealthDamage*100@% máu tối đa</physicalDamage>."
     },
     {
         "id": 28,
@@ -280,6 +298,12 @@
         "vn_name": "Vô Cảm Trước Đau Đớn",
         "en_name": "Numb to Pain",
         "desc": "@MeleeReduction*100@% sát thương bạn phải chịu ngay sẽ gây thương tổn dần dần trong @BleedDuration@ giây (@RangedReduction*100@% với tướng đánh xa)."
+    },
+    {
+        "id": 362,
+        "vn_name": "Liên Minh Thợ Săn",
+        "en_name": "Ally Hunter",
+        "desc": "Bỏ phiếu để đội của bạn liên minh với Thợ Săn Quỷ. <br><br>Liên minh với Thợ Săn Quỷ sẽ trao <gold>+%i:goldCoins%@BonusGold@ vàng thưởng</gold> khi bạn đánh bại một <keywordMajor>đội Quỷ</keywordMajor>."
     },
     {
         "id": 322,
@@ -396,6 +420,12 @@
         "desc": "Cường Hóa, <healing>Hồi Máu</healing> hoặc <shield>Tạo Lá Chắn</shield> cho đồng minh sẽ gây sát thương và <status>Làm Chậm</status> những kẻ địch xung quanh họ."
     },
     {
+        "id": 354,
+        "vn_name": "Di Vật Ác Thần",
+        "en_name": "Remnant of the Watchers",
+        "desc": "Giảm <attackSpeed>Tốc Độ Đánh</attackSpeed> của các tướng địch xung quanh."
+    },
+    {
         "id": 107,
         "vn_name": "Nhân Hai Nhân Ba",
         "en_name": "Twice Thrice",
@@ -430,6 +460,12 @@
         "vn_name": "Bứt Tốc",
         "en_name": "With Haste",
         "desc": "Nhận <speed>Tốc Độ Di Chuyển</speed> bằng @AbilityHasteToMSConversion*100@% Điểm Hồi Kỹ Năng của bạn."
+    },
+    {
+        "id": 349,
+        "vn_name": "Máy Phân Rã Năng Lượng",
+        "en_name": "Dematerializer",
+        "desc": "Gây sát thương sẽ hành quyết tướng còn dưới @ExecuteThreshold*100@% Máu."
     },
     {
         "id": 34,
@@ -499,8 +535,8 @@
     },
     {
         "id": 316,
-        "vn_name": "Nọc Độc Sâu",
-        "en_name": "Grevious Venom",
+        "vn_name": "Độc Lực Sâu",
+        "en_name": "Grievous Venom",
         "desc": "Gây sát thương lên một tướng địch sẽ làm giảm mọi <shield>lá chắn</shield> chúng nhận được và gây <status>Vết Thương Sâu</status>, làm giảm <healing>hồi máu</healing> chúng nhận được. "
     },
     {
@@ -508,6 +544,12 @@
         "vn_name": "Hỏa Ngục Dẫn Truyền",
         "en_name": "Infernal Conduit",
         "desc": "Kỹ Năng của bạn gây cộng dồn <keywordMajor>Thiêu Đốt</keywordMajor> vô hạn, gây <magicDamage>sát thương phép</magicDamage> theo thời gian.<br><br>Hiệu ứng <keywordMajor>Thiêu Đốt</keywordMajor> của bạn sẽ giảm hồi chiêu cho các Kỹ Năng Cơ Bản."
+    },
+    {
+        "id": 361,
+        "vn_name": "Liên Minh Quỷ",
+        "en_name": "Ally Demon",
+        "desc": "Bỏ phiếu để đội của bạn liên minh với Quỷ. <br><br>Liên minh với Quỷ sẽ trao một <keywordMajor>%i:AugmentLevel% Cấp Độ Nâng Cấp</keywordMajor> khi một đội <keywordMajor>Thợ Săn bị tiêu diệt.</keywordMajor>"
     },
     {
         "id": 205,
@@ -634,6 +676,12 @@
         "vn_name": "Liên Kết Tâm Linh",
         "en_name": "Spirit Link",
         "desc": "{{Cherry_SpiritLink@TeamSize@_Summary}}"
+    },
+    {
+        "id": 350,
+        "vn_name": "Bình Thuốc Ma Thuật",
+        "en_name": "Enchanted Flask",
+        "desc": "Nhận 1 <attention>Khiên Phép</attention> mỗi @Cooldown@ giây."
     },
     {
         "id": 217,
@@ -1024,12 +1072,6 @@
         "vn_name": "Khát Vọng Tài Phú",
         "en_name": "Compulsion For Wealth",
         "desc": "Hiến tế <scaleHealth>@HealthReductionPercent@% máu tối đa của bạn</scaleHealth> cho Tahm Kench. <br><br>Tổng lượng hiến tế của bạn sẽ tăng thành <scaleHealth>-@MaxHealthReduction@% máu tối đa</scaleHealth>.<br><br>Nhận <gold>+%i:goldCoins% @GoldToGrant@ vàng</gold>."
-    },
-    {
-        "id": 40,
-        "vn_name": "Nền Băng",
-        "en_name": "Frozen Foundations",
-        "desc": "Nhận Phép Bổ Trợ <spellName>Nền Băng</spellName>.<br><br><rules><spellName>Nền Băng</spellName> triệu hồi 1 bức tường băng tại một vị trí.</rules>"
     },
     {
         "id": 118,
@@ -2010,12 +2052,6 @@
         "desc": ""
     },
     {
-        "id": 1135,
-        "vn_name": "Trúng Phép Tỉnh Người",
-        "en_name": "Spellwake",
-        "desc": ""
-    },
-    {
         "id": 1214,
         "vn_name": "Xoay Là Thắng",
         "en_name": "Spin To Win",
@@ -2673,6 +2709,12 @@
         "id": 187,
         "vn_name": "Lựu Đạn Mù",
         "en_name": "Flashbang",
+        "desc": ""
+    },
+    {
+        "id": 40,
+        "vn_name": "Nền Băng",
+        "en_name": "Frozen Foundations",
         "desc": ""
     },
     {
