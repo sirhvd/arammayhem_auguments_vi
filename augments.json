@@ -291,7 +291,7 @@
         "id": 310,
         "vn_name": "Học Thuật Làm Hề",
         "en_name": "Clown College",
-        "desc": "Nhận Phép Bổ Trợ <spellName>Lừa Gạt</spellName>.<br><br><spellName>Lừa Gạt</spellName>: Dịch chuyển và trở nên <keywordStealth>Tàng Hình</keywordStealth>. Đòn đánh kế tiếp của bạn khi đang <keywordStealth>Tàng Hình</keywordStealth> sẽ gây thêm <physicalDamage>sát thương vật lý</physicalDamage>. <br><br>Khi bạn hy sinh, tạo một hộp phát nổ gây <trueDamage>sát thương chuẩn</trueDamage> lớn và làm kẻ địch xung quanh <status>Hoảng Sợ</status>."
+        "desc": "Nhận Phép Bổ Trợ <spellName>Lừa Gạt</spellName>.<br><br><spellName>Lừa Gạt</spellName>: Dịch chuyển và trở nên <keywordStealth>Tàng Hình</keywordStealth>. Đòn đánh kế tiếp của bạn khi đang <keywordStealth>Tàng Hình</keywordStealth> sẽ gây thêm <physicalDamage>sát thương vật lý</physicalDamage>. <br><br>Khi bạn hy sinh, tạo một hộp phát nổ gây <magicDamage>sát thương phép</magicDamage> lớn và làm kẻ địch xung quanh <status>Hoảng Sợ</status>."
     },
     {
         "id": 251,
@@ -303,7 +303,7 @@
         "id": 362,
         "vn_name": "Liên Minh Thợ Săn",
         "en_name": "Ally Hunter",
-        "desc": "Bỏ phiếu để đội của bạn liên minh với Thợ Săn Quỷ. <br><br>Liên minh với Thợ Săn Quỷ sẽ trao <gold>+%i:goldCoins%@BonusGold@ vàng thưởng</gold> khi bạn đánh bại một <keywordMajor>đội Quỷ</keywordMajor>."
+        "desc": "Bỏ phiếu để đội của bạn liên minh với Thợ Săn Quỷ. <br><br>Liên minh với Thợ Săn Quỷ sẽ trao <gold>+%i:goldCoins%@BonusGold@ vàng thưởng</gold> <keywordMajor>khi bạn đánh bại một đội Quỷ</keywordMajor>."
     },
     {
         "id": 322,
@@ -765,7 +765,7 @@
         "id": 115,
         "vn_name": "Lắp Kính Nhắm Cỡ Đại",
         "en_name": "Scopiest Weapons",
-        "desc": "Nhận @MeleeRangeIncrease@ Tầm Đánh, giảm xuống còn @RangedRangeIncrease@ nếu bạn là Tướng Đánh Xa."
+        "desc": "Tăng @RangeIncrease@ Tầm Đánh."
     },
     {
         "id": 232,
@@ -789,7 +789,7 @@
         "id": 204,
         "vn_name": "Khủng Long Cộng Dồn",
         "en_name": "Stackosaurus Rex",
-        "desc": "Khi bạn nhận <keywordMajor>Cộng Dồn</keywordMajor> vĩnh viễn cho một Kỹ Năng, nhận thêm @StackModifier*100@% cộng dồn nữa!"
+        "desc": "Khi bạn nhận <keywordMajor>Cộng Dồn</keywordMajor> vĩnh viễn cho một Kỹ Năng, Nâng Cấp hoặc Trang Bị nhận thêm @StackModifier*100@% cộng dồn nữa!"
     },
     {
         "id": 206,
@@ -856,6 +856,12 @@
         "vn_name": "Bậc Thầy Gọi Đệ",
         "en_name": "Minionmancer",
         "desc": "Các đơn vị triệu hồi của bạn được tăng @MinionAmp*100@% kích cỡ, máu và sát thương."
+    },
+    {
+        "id": 392,
+        "vn_name": "Tinh Cầu Lừa Đảo",
+        "en_name": "Swindler's Orb",
+        "desc": "Gây sát thương lên tướng địch sẽ giảm <shield>lá chắn</shield> của chúng."
     },
     {
         "id": 313,
@@ -1380,9 +1386,21 @@
         "desc": ""
     },
     {
+        "id": 2087,
+        "vn_name": "Đại Pháp Sư",
+        "en_name": "Archmage",
+        "desc": ""
+    },
+    {
         "id": 1004,
         "vn_name": "Đơn Giản Hóa",
         "en_name": "Back To Basics",
+        "desc": ""
+    },
+    {
+        "id": 2103,
+        "vn_name": "Quà Yêu Thương Từ Jinx",
+        "en_name": "From Downtown",
         "desc": ""
     },
     {
@@ -1405,19 +1423,19 @@
     },
     {
         "id": 1103,
-        "vn_name": "Bánh Mỳ & Bơ",
+        "vn_name": "Bánh Mì & Bơ",
         "en_name": "Bread And Butter",
         "desc": ""
     },
     {
         "id": 1151,
-        "vn_name": "Bánh Mỳ & Phô-mai",
+        "vn_name": "Bánh Mì & Phô-mai",
         "en_name": "Bread and Cheese",
         "desc": ""
     },
     {
         "id": 1150,
-        "vn_name": "Bánh Mỳ & Mứt",
+        "vn_name": "Bánh Mì & Mứt",
         "en_name": "Bread And Jam",
         "desc": ""
     },
@@ -1512,6 +1530,12 @@
         "desc": ""
     },
     {
+        "id": 2099,
+        "vn_name": "Nghi Lễ Thăng Hoa",
+        "en_name": "Rite of Ascension",
+        "desc": ""
+    },
+    {
         "id": 1301,
         "vn_name": "Thần Linh Ban Phước",
         "en_name": "Divine Intervention",
@@ -1536,6 +1560,12 @@
         "desc": ""
     },
     {
+        "id": 2031,
+        "vn_name": "Thả Gấu",
+        "en_name": "DropBear",
+        "desc": ""
+    },
+    {
         "id": 2006,
         "vn_name": "Đá Bay",
         "en_name": "Dropkick",
@@ -1557,6 +1587,12 @@
         "id": 2004,
         "vn_name": "Đức Tin Tiếp Sức",
         "en_name": "Empowered By The Faithful",
+        "desc": ""
+    },
+    {
+        "id": 2098,
+        "vn_name": "Bắt Tốt Qua Đường",
+        "en_name": "En Passant",
         "desc": ""
     },
     {
@@ -1680,6 +1716,18 @@
         "desc": ""
     },
     {
+        "id": 2107,
+        "vn_name": "Quyết Tâm Bất Diệt",
+        "en_name": "Hellbent",
+        "desc": ""
+    },
+    {
+        "id": 2095,
+        "vn_name": "Tay Bạc",
+        "en_name": "High Roller",
+        "desc": ""
+    },
+    {
         "id": 1198,
         "vn_name": "Hỏa Thiêng",
         "en_name": "Holy Fire",
@@ -1695,6 +1743,12 @@
         "id": 1044,
         "vn_name": "Băng Lạnh",
         "en_name": "Ice Cold",
+        "desc": ""
+    },
+    {
+        "id": 1001,
+        "vn_name": "Quyền Năng Khổng Lồ",
+        "en_name": "Titan's Resolve",
         "desc": ""
     },
     {
@@ -1824,6 +1878,12 @@
         "desc": ""
     },
     {
+        "id": 2055,
+        "vn_name": "Bắn Liên Hoàn",
+        "en_name": "Multishot",
+        "desc": ""
+    },
+    {
         "id": 1058,
         "vn_name": "Cú Đấm Thần Bí",
         "en_name": "Mystic Punch",
@@ -1915,32 +1975,38 @@
     },
     {
         "id": 1152,
-        "vn_name": "Nhiệm Vụ: Trái Tim Sắt Đá",
-        "en_name": "Quest: Steel Your Heart",
+        "vn_name": "Trái Tim Sắt Đá",
+        "en_name": "Steel Your Heart",
         "desc": ""
     },
     {
         "id": 1154,
-        "vn_name": "Nhiệm Vụ: Nhà Vô Địch URF",
-        "en_name": "Quest: Urf's Champion",
+        "vn_name": "Nhà Vô Địch URF",
+        "en_name": "Urf's Champion",
         "desc": ""
     },
     {
         "id": 1361,
-        "vn_name": "Nhiệm Vụ: Sự Sụp Đổ Của Icathia",
-        "en_name": "Quest: Icathia's Fall",
+        "vn_name": "Sự Sụp Đổ Của Icathia",
+        "en_name": "Icathia's Fall",
         "desc": ""
     },
     {
         "id": 1156,
-        "vn_name": "Nhiệm Vụ: Mũ Phù Thủy Wooglet",
-        "en_name": "Quest: Wooglet's Witchcap",
+        "vn_name": "Mũ Phù Thủy Wooglet",
+        "en_name": "Wooglet's Witchcap",
+        "desc": ""
+    },
+    {
+        "id": 2064,
+        "vn_name": "Bước Chân Nhanh Nhẹn",
+        "en_name": "Quickstep",
         "desc": ""
     },
     {
         "id": 1067,
-        "vn_name": "Đả Kích",
-        "en_name": "Rabble Rousing",
+        "vn_name": "Hồi Sức",
+        "en_name": "Rejuvenation",
         "desc": ""
     },
     {
@@ -2034,6 +2100,12 @@
         "desc": ""
     },
     {
+        "id": 2088,
+        "vn_name": "Ngày Tuyết Rơi",
+        "en_name": "Snowday",
+        "desc": ""
+    },
+    {
         "id": 1076,
         "vn_name": "Vụ Nổ Siêu Thanh",
         "en_name": "Sonic Boom",
@@ -2046,6 +2118,12 @@
         "desc": ""
     },
     {
+        "id": 2100,
+        "vn_name": "Theo Đuổi Tốc Độ",
+        "en_name": "Pursuit of Haste",
+        "desc": ""
+    },
+    {
         "id": 1405,
         "vn_name": "Ma Tốc Độ",
         "en_name": "Speed Demon",
@@ -2055,6 +2133,12 @@
         "id": 1214,
         "vn_name": "Xoay Là Thắng",
         "en_name": "Spin To Win",
+        "desc": ""
+    },
+    {
+        "id": 2104,
+        "vn_name": "Tinh Linh Cầu",
+        "en_name": "Spirit Bomb",
         "desc": ""
     },
     {
@@ -2094,6 +2178,12 @@
         "desc": ""
     },
     {
+        "id": 2073,
+        "vn_name": "Hút",
+        "en_name": "Siphon",
+        "desc": ""
+    },
+    {
         "id": 1079,
         "vn_name": "Chiến Hùng Ca",
         "en_name": "Symphony of War",
@@ -2115,6 +2205,12 @@
         "id": 1081,
         "vn_name": "Vũ Công Thiết Hài",
         "en_name": "Tap Dancer",
+        "desc": ""
+    },
+    {
+        "id": 2065,
+        "vn_name": "Kinh Hoàng",
+        "en_name": "Terror",
         "desc": ""
     },
     {
@@ -2244,6 +2340,12 @@
         "desc": ""
     },
     {
+        "id": 1005,
+        "vn_name": "Xe Cứu Thương Tới Đây",
+        "en_name": "Wee Woo Wee Woo",
+        "desc": ""
+    },
+    {
         "id": 2008,
         "vn_name": "Xả Chiêu Thần Tốc",
         "en_name": "Weighted Popoffs",
@@ -2268,6 +2370,12 @@
         "desc": ""
     },
     {
+        "id": 2089,
+        "vn_name": "Ái da, Xu của tôi!",
+        "en_name": "Yowch, My Coins!",
+        "desc": ""
+    },
+    {
         "id": 2009,
         "vn_name": "Cuồng Tín",
         "en_name": "Zealot",
@@ -2277,6 +2385,12 @@
         "id": 1206,
         "vn_name": "Chuyển Hoá SMPT-SMCK",
         "en_name": "escAPADe",
+        "desc": ""
+    },
+    {
+        "id": 2062,
+        "vn_name": "Thi Triển Dội Âm",
+        "en_name": "Echo Cast",
         "desc": ""
     },
     {
@@ -2301,6 +2415,36 @@
         "id": 1329,
         "vn_name": "Cầu Tuyết Trong Truyền Thuyết",
         "en_name": "Biggest Snowball Ever",
+        "desc": ""
+    },
+    {
+        "id": 2128,
+        "vn_name": "Lãi Suất Bốc Cháy",
+        "en_name": "Combusting Interest",
+        "desc": ""
+    },
+    {
+        "id": 2111,
+        "vn_name": "BONK!",
+        "en_name": "BONK!",
+        "desc": ""
+    },
+    {
+        "id": 2042,
+        "vn_name": "Hide on Bush",
+        "en_name": "Hide on Bush",
+        "desc": ""
+    },
+    {
+        "id": 2083,
+        "vn_name": "Tiên Răng",
+        "en_name": "Tooth Fairy",
+        "desc": ""
+    },
+    {
+        "id": 2078,
+        "vn_name": "Phản Ứng Dây Chuyền",
+        "en_name": "Chain Reaction",
         "desc": ""
     },
     {
@@ -2334,15 +2478,45 @@
         "desc": ""
     },
     {
+        "id": 2077,
+        "vn_name": "Lòng Tham Trói Buộc",
+        "en_name": "Ravenous Bind",
+        "desc": ""
+    },
+    {
         "id": 383,
         "vn_name": "Ma Trảo",
         "en_name": "Demonic Clasp",
         "desc": ""
     },
     {
+        "id": 2063,
+        "vn_name": "Dịch Chuyển Chiều Không Gian",
+        "en_name": "Dimension Shift",
+        "desc": ""
+    },
+    {
         "id": 1384,
         "vn_name": "Quyên Góp",
         "en_name": "Donation",
+        "desc": ""
+    },
+    {
+        "id": 2131,
+        "vn_name": "Đừng Chuyển Kênh",
+        "en_name": "Don't Change the Channel",
+        "desc": ""
+    },
+    {
+        "id": 2144,
+        "vn_name": "Tăng Cường",
+        "en_name": "Bolstered",
+        "desc": ""
+    },
+    {
+        "id": 2148,
+        "vn_name": "Chém Đôi",
+        "en_name": "Double Strike",
         "desc": ""
     },
     {
@@ -2358,6 +2532,18 @@
         "desc": ""
     },
     {
+        "id": 2091,
+        "vn_name": "Tàn Sát Bất Tận",
+        "en_name": "Endless Decimation",
+        "desc": ""
+    },
+    {
+        "id": 2082,
+        "vn_name": "Hồi Máu Của Chúng Ta",
+        "en_name": "Our Healing",
+        "desc": ""
+    },
+    {
         "id": 1333,
         "vn_name": "Kế Hoạch Đào Tẩu",
         "en_name": "Escape Plan",
@@ -2370,9 +2556,21 @@
         "desc": ""
     },
     {
+        "id": 2032,
+        "vn_name": "Mồi Cá Mập",
+        "en_name": "Shark Bait",
+        "desc": ""
+    },
+    {
         "id": 1348,
         "vn_name": "Tốc Biến 2",
         "en_name": "Flash 2",
+        "desc": ""
+    },
+    {
+        "id": 2127,
+        "vn_name": "Tôi Luyện Từ Cao Thủ",
+        "en_name": "Forged By The Master",
         "desc": ""
     },
     {
@@ -2436,6 +2634,18 @@
         "desc": ""
     },
     {
+        "id": 2125,
+        "vn_name": "Xuất Phát Thôi",
+        "en_name": "It's Go Time",
+        "desc": ""
+    },
+    {
+        "id": 2126,
+        "vn_name": "Lên Đạn",
+        "en_name": "Reload",
+        "desc": ""
+    },
+    {
         "id": 2026,
         "vn_name": "Tự Tay Hạ Gục",
         "en_name": "Kill Secured",
@@ -2454,15 +2664,39 @@
         "desc": ""
     },
     {
+        "id": 2096,
+        "vn_name": "Một Chút Trợ Giúp",
+        "en_name": "Lil' Extra Help",
+        "desc": ""
+    },
+    {
         "id": 380,
         "vn_name": "Nhân Từ",
         "en_name": "Mercy",
         "desc": ""
     },
     {
+        "id": 2133,
+        "vn_name": "Đòn Công Nhân Từ",
+        "en_name": "Mercy's Strike",
+        "desc": ""
+    },
+    {
         "id": 1314,
         "vn_name": "Lá Chắn Hùng Mạnh",
         "en_name": "Mighty Shield",
+        "desc": ""
+    },
+    {
+        "id": 2072,
+        "vn_name": "Phân Chia Kỹ Năng",
+        "en_name": "Spell Split",
+        "desc": ""
+    },
+    {
+        "id": 2043,
+        "vn_name": "Thiên Nhiên Êm Dịu",
+        "en_name": "Nature is Healing",
         "desc": ""
     },
     {
@@ -2478,6 +2712,36 @@
         "desc": ""
     },
     {
+        "id": 2119,
+        "vn_name": "Rướn Quá Đà",
+        "en_name": "Overextender",
+        "desc": ""
+    },
+    {
+        "id": 2135,
+        "vn_name": "Gối Cắm Kim",
+        "en_name": "Pin Cushion",
+        "desc": ""
+    },
+    {
+        "id": 2123,
+        "vn_name": "Quá Tải Sát Thương",
+        "en_name": "Overloaded",
+        "desc": ""
+    },
+    {
+        "id": 2137,
+        "vn_name": "Vỗ Vai Động Viên",
+        "en_name": "Pat On The Back",
+        "desc": ""
+    },
+    {
+        "id": 2139,
+        "vn_name": "Nhím",
+        "en_name": "Porcupine",
+        "desc": ""
+    },
+    {
         "id": 1358,
         "vn_name": "Bi Lăn",
         "en_name": "Pinball",
@@ -2490,6 +2754,18 @@
         "desc": ""
     },
     {
+        "id": 2046,
+        "vn_name": "Poro Càn Quét",
+        "en_name": "Poro Stampede",
+        "desc": ""
+    },
+    {
+        "id": 2102,
+        "vn_name": "Lò Luyện Áp Suất",
+        "en_name": "Pressure Cooker",
+        "desc": ""
+    },
+    {
         "id": 1421,
         "vn_name": "Hoa Khôi",
         "en_name": "Prom Queen",
@@ -2499,6 +2775,12 @@
         "id": 1343,
         "vn_name": "Nghiện Giày",
         "en_name": "Sneakerhead",
+        "desc": ""
+    },
+    {
+        "id": 393,
+        "vn_name": "Sự Sụp Đổ Của Icathia",
+        "en_name": "Icathia's Fall",
         "desc": ""
     },
     {
@@ -2544,9 +2826,27 @@
         "desc": ""
     },
     {
+        "id": 2034,
+        "vn_name": "Bão Cá Mập",
+        "en_name": "Shark Tempest",
+        "desc": ""
+    },
+    {
         "id": 1373,
         "vn_name": "Động Cơ Thu Nhỏ",
         "en_name": "Shrink Engine",
+        "desc": ""
+    },
+    {
+        "id": 2118,
+        "vn_name": "Bot Chiêu Cuối",
+        "en_name": "Ult Bot",
+        "desc": ""
+    },
+    {
+        "id": 2109,
+        "vn_name": "Hồi Quy Siêu Tốc",
+        "en_name": "Snap Back",
         "desc": ""
     },
     {
@@ -2562,6 +2862,12 @@
         "desc": ""
     },
     {
+        "id": 2080,
+        "vn_name": "Vụ Nổ Tuyết",
+        "en_name": "Snowblast",
+        "desc": ""
+    },
+    {
         "id": 1420,
         "vn_name": "Bản Sonata",
         "en_name": "Sonata",
@@ -2574,15 +2880,57 @@
         "desc": ""
     },
     {
+        "id": 2116,
+        "vn_name": "Theo Đuổi Sức Mạnh",
+        "en_name": "Pursuit of Power",
+        "desc": ""
+    },
+    {
+        "id": 2054,
+        "vn_name": "Tam Kích",
+        "en_name": "Tripleshot",
+        "desc": ""
+    },
+    {
         "id": 384,
         "vn_name": "Chế Tác Phép",
         "en_name": "Spellcraft",
         "desc": ""
     },
     {
+        "id": 2115,
+        "vn_name": "Đôi Tay Dẻo Dính",
+        "en_name": "Squishy Slappy Grab",
+        "desc": ""
+    },
+    {
+        "id": 2108,
+        "vn_name": "Hỗ Trợ Chính",
+        "en_name": "Support Main",
+        "desc": ""
+    },
+    {
+        "id": 2134,
+        "vn_name": "Trường Năng Lượng",
+        "en_name": "Surge Field",
+        "desc": ""
+    },
+    {
         "id": 1315,
         "vn_name": "Nhanh & An Toàn",
         "en_name": "Swift and Safe",
+        "desc": ""
+    },
+    {
+        "id": 2129,
+        "vn_name": "Kiến Tạo Địa Hình",
+        "en_name": "Terrain'd",
+        "desc": ""
+    },
+    {
+        "id": 2076,
+        "vn_name": "Giữ Vững Quyết Tâm",
+        "en_name": "Stay Resolute",
         "desc": ""
     },
     {
@@ -2601,6 +2949,12 @@
         "id": 389,
         "vn_name": "Phế Vật Thành Báu Vật",
         "en_name": "Trash To Treasure",
+        "desc": ""
+    },
+    {
+        "id": 2136,
+        "vn_name": "Vũ Khí Tin Cậy",
+        "en_name": "Trusty Weapon",
         "desc": ""
     },
     {
@@ -2649,6 +3003,24 @@
         "id": 1034,
         "vn_name": "Vỏ Bọc Bảo Hộ",
         "en_name": "Veil of Warding",
+        "desc": ""
+    },
+    {
+        "id": 2097,
+        "vn_name": "Lướt Hư Không",
+        "en_name": "Void Dash",
+        "desc": ""
+    },
+    {
+        "id": 2138,
+        "vn_name": "Mắt Thích Ứng",
+        "en_name": "Adaptive Ward",
+        "desc": ""
+    },
+    {
+        "id": 2132,
+        "vn_name": "Hộp Nước Ma Đạo Sĩ",
+        "en_name": "Warlock Juicebox",
         "desc": ""
     },
     {
