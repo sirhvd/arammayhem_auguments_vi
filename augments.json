@@ -24,12 +24,6 @@
         "desc": "Nhận thêm @RevivesToGain@ lần hồi sinh và giảm một nửa thời gian hồi sinh."
     },
     {
-        "id": 166,
-        "vn_name": "Điện Lan",
-        "en_name": "Chain Lightning",
-        "desc": "Gây sát thương lên mục tiêu cũng sẽ gây lên kẻ địch gần nhất một lượng <trueDamage>sát thương chuẩn bằng @DamageMod*100@% sát thương đã gây ra</trueDamage>."
-    },
-    {
         "id": 323,
         "vn_name": "Địa Ngục Khuyển",
         "en_name": "Cerberus",
@@ -597,7 +591,7 @@
         "id": 234,
         "vn_name": "Gói Trang Bị Đánh Cược",
         "en_name": "Gamba Anvil",
-        "desc": "Nhận <gold>+%i:goldCoins%@GoldBonus@ vàng</gold> và giảm giá của tất cả gói trang bị.<br><br><attention>Gói Trang Bị Kim Cương</attention>: <gold>%i:goldCoins%@PrismaticCostReduction@ vàng</gold><br><attention>Gói Trang Bị Huyền Thoại</attention>: <gold>-%i:goldCoins%@LegendaryCostReduction@ vàng</gold><br><attention>Gói Trang Bị Chỉ Số</attention>: <gold>-%i:goldCoins%@StatCostReduction@ vàng</gold><br><br><rules>Các trang bị nhận được từ gói trang bị được bán lại với giá giảm <gold>-%i:goldCoins%500 vàng</gold>.</rules>"
+        "desc": "Nhận <gold>+%i:goldCoins%@GoldBonus@ vàng</gold> và giảm giá của tất cả gói trang bị.<br><br><attention>Gói Trang Bị Kim Cương</attention>: <gold>-%i:goldCoins%@PrismaticCostReduction@ vàng</gold><br><attention>Gói Trang Bị Huyền Thoại</attention>: <gold>-%i:goldCoins%@LegendaryCostReduction@ vàng</gold><br><attention>Gói Trang Bị Chỉ Số</attention>: <gold>-%i:goldCoins%@StatCostReduction@ vàng</gold><br><br><rules>Các trang bị nhận được từ gói trang bị được bán lại với giá giảm <gold>-%i:goldCoins%500 vàng</gold>.</rules>"
     },
     {
         "id": 301,
@@ -778,12 +772,6 @@
         "vn_name": "Gieo Rắc Sợ Hãi",
         "en_name": "Dreadbringer",
         "desc": "Nhận 1 hào quang liên tục thu thập <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> vĩnh viễn từ mỗi tướng địch ở trong hào quang đó. Nhận <scaleHealth>Máu tối đa</scaleHealth> dựa trên <keywordMajor>Sức Mạnh Nguyền Rủa</keywordMajor> của bạn."
-    },
-    {
-        "id": 320,
-        "vn_name": "Rủi Ro Có Tính Toán",
-        "en_name": "Calculated Risk",
-        "desc": "Bạn không thể %i:Reroll% Đổi Lại nữa.<br><br>Bắt đầu một lượt chọn <keywordMajor>%i:Augment% Nâng Cấp Vàng</keywordMajor>, nếu bạn có từ @AugmentThreshold@ nâng cấp trở xuống, thay vào đó nhận 1 <keywordMajor>%i:Augment% Nâng Cấp Kim Cương</keywordMajor>."
     },
     {
         "id": 204,
@@ -2526,6 +2514,12 @@
         "desc": ""
     },
     {
+        "id": 394,
+        "vn_name": "Bụi Hóa Kim Cương",
+        "en_name": "Dust To Diamonds",
+        "desc": ""
+    },
+    {
         "id": 1331,
         "vn_name": "Nhẫn Hỏa Ảnh",
         "en_name": "Empyrean Promise",
@@ -3057,6 +3051,18 @@
         "id": 230,
         "vn_name": "Thiên Đường Đạn Đạo",
         "en_name": "Bullet Heaven",
+        "desc": ""
+    },
+    {
+        "id": 320,
+        "vn_name": "Rủi Ro Có Tính Toán",
+        "en_name": "Calculated Risk",
+        "desc": ""
+    },
+    {
+        "id": 166,
+        "vn_name": "Điện Lan",
+        "en_name": "Chain Lightning",
         "desc": ""
     },
     {
