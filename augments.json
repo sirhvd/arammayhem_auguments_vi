@@ -777,7 +777,7 @@
         "id": 204,
         "vn_name": "Khủng Long Cộng Dồn",
         "en_name": "Stackosaurus Rex",
-        "desc": "Khi bạn nhận <keywordMajor>Cộng Dồn</keywordMajor> vĩnh viễn cho một Kỹ Năng, Nâng Cấp hoặc Trang Bị nhận thêm @StackModifier*100@% cộng dồn nữa!"
+        "desc": "Khi bạn nhận <keywordMajor>Cộng Dồn</keywordMajor> vĩnh viễn cho một Kỹ Năng, nhận thêm @StackModifier*100@% cộng dồn nữa!"
     },
     {
         "id": 206,
