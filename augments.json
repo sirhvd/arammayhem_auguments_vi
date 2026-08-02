@@ -336,12 +336,6 @@
         "desc": "Nhận <scaleAF>%i:miniAdaptiveForce% @AdaptiveForce@ Sức Mạnh Thích Ứng</scaleAF> khi tham gia hạ gục, một lần mỗi tướng mỗi vòng đấu.<br><br><rules>Nhận nâng cấp này sau vòng @RoundCounterForBonus@, nhận <scaleAF>%i:miniAdaptiveForce% @BonusForLatePick@ Sức Mạnh Thích Ứng</scaleAF>.</rules>"
     },
     {
-        "id": 250,
-        "vn_name": "Chậm Và Chắc",
-        "en_name": "Slow and Steady",
-        "desc": "<speed>Tốc Độ Đánh</speed> của bạn không thể vượt quá @StaticRatio@. Toàn bộ <speed>Tốc Độ Đánh</speed> cộng thêm được chuyển hóa thành <scaleAD>Sức Mạnh Công Kích</scaleAD>.<br>"
-    },
-    {
         "id": 39,
         "vn_name": "Ma Băng",
         "en_name": "Frost Wraith",
@@ -2203,7 +2197,7 @@
     },
     {
         "id": 1082,
-        "vn_name": "Gậy Tàn Bạo",
+        "vn_name": "Gậy Hung Ác",
         "en_name": "The Brutalizer",
         "desc": ""
     },
@@ -2484,6 +2478,18 @@
         "desc": ""
     },
     {
+        "id": 7014,
+        "vn_name": "Nhử",
+        "en_name": "Ragebait",
+        "desc": ""
+    },
+    {
+        "id": 7003,
+        "vn_name": "Làm Ngay Hay Lên Bảng",
+        "en_name": "Do or Die",
+        "desc": ""
+    },
+    {
         "id": 1384,
         "vn_name": "Quyên Góp",
         "en_name": "Donation",
@@ -2496,6 +2502,18 @@
         "desc": ""
     },
     {
+        "id": 7002,
+        "vn_name": "Chẻ Mãi Không Thôi",
+        "en_name": "Don't Stop Cleavin'",
+        "desc": ""
+    },
+    {
+        "id": 7008,
+        "vn_name": "Fan Cứng Của Doran",
+        "en_name": "Doran's Biggest Fan",
+        "desc": ""
+    },
+    {
         "id": 2144,
         "vn_name": "Tăng Cường",
         "en_name": "Bolstered",
@@ -2505,6 +2523,12 @@
         "id": 2148,
         "vn_name": "Chém Đôi",
         "en_name": "Double Strike",
+        "desc": ""
+    },
+    {
+        "id": 7004,
+        "vn_name": "Nạp Năng Lượng",
+        "en_name": "Drink Up",
         "desc": ""
     },
     {
@@ -2568,6 +2592,12 @@
         "desc": ""
     },
     {
+        "id": 7010,
+        "vn_name": "Bẻ Cong Thời Gian: Trái Tim Khổng Thần",
+        "en_name": "Time Warp: Heartsteel",
+        "desc": ""
+    },
+    {
         "id": 1321,
         "vn_name": "Sắc Lẹm",
         "en_name": "Gash",
@@ -2610,9 +2640,21 @@
         "desc": ""
     },
     {
+        "id": 7005,
+        "vn_name": "Dục Tốc Bất Đạt",
+        "en_name": "Haste Makes Waste",
+        "desc": ""
+    },
+    {
         "id": 1341,
         "vn_name": "Mũ Chồng Mũ",
         "en_name": "Hat on a Hat",
+        "desc": ""
+    },
+    {
+        "id": 7012,
+        "vn_name": "Lõi Công Nghệ",
+        "en_name": "The Hex Core",
         "desc": ""
     },
     {
@@ -2892,9 +2934,27 @@
         "desc": ""
     },
     {
+        "id": 7013,
+        "vn_name": "Linh Hồn của Chuyên Đi Rừng",
+        "en_name": "Spirit of the Jungle Main",
+        "desc": ""
+    },
+    {
         "id": 2115,
         "vn_name": "Đôi Tay Dẻo Dính",
         "en_name": "Squishy Slappy Grab",
+        "desc": ""
+    },
+    {
+        "id": 7006,
+        "vn_name": "Đâm Tới Đâm Lui",
+        "en_name": "Stabby Stabby",
+        "desc": ""
+    },
+    {
+        "id": 7015,
+        "vn_name": "Vườn Thú Summoner",
+        "en_name": "Summoner's Safari",
         "desc": ""
     },
     {
@@ -2946,6 +3006,12 @@
         "desc": ""
     },
     {
+        "id": 7011,
+        "vn_name": "Vĩnh Hằng Đích Thực",
+        "en_name": "True Eternity",
+        "desc": ""
+    },
+    {
         "id": 2136,
         "vn_name": "Vũ Khí Tin Cậy",
         "en_name": "Trusty Weapon",
@@ -2970,6 +3036,18 @@
         "desc": ""
     },
     {
+        "id": 7007,
+        "vn_name": "Nâng Cấp: Bùa Đầu Lâu",
+        "en_name": "Upgrade: Deathfire Grasp",
+        "desc": ""
+    },
+    {
+        "id": 7009,
+        "vn_name": "Nâng Cấp: Dây Chuyền Tự Lực",
+        "en_name": "Upgrade: Innervating Locket",
+        "desc": ""
+    },
+    {
         "id": 1340,
         "vn_name": "Nâng Cấp Chuông Bảo Hộ Mikael",
         "en_name": "Upgrade Mikael's Blessing",
@@ -2985,6 +3063,12 @@
         "id": 1411,
         "vn_name": "Nâng Cấp Giáp Gai",
         "en_name": "Upgrade Thornmail",
+        "desc": ""
+    },
+    {
+        "id": 7001,
+        "vn_name": "Nâng Cấp: Thông Đạo Zz'rot",
+        "en_name": "Upgrade: Zz'Rot Portal",
         "desc": ""
     },
     {
@@ -3159,6 +3243,12 @@
         "id": 307,
         "vn_name": "Phi Tiêu Ngủ",
         "en_name": "Sleep Dart",
+        "desc": ""
+    },
+    {
+        "id": 250,
+        "vn_name": "Chậm Và Chắc",
+        "en_name": "Slow and Steady",
         "desc": ""
     },
     {
