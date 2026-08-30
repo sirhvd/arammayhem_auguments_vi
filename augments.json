@@ -2814,6 +2814,12 @@
         "desc": ""
     },
     {
+        "id": 2141,
+        "vn_name": "Siêu Mãng Xà",
+        "en_name": "Ultra Hydra",
+        "desc": ""
+    },
+    {
         "id": 393,
         "vn_name": "Sự Sụp Đổ Của Icathia",
         "en_name": "Icathia's Fall",
@@ -3033,6 +3039,12 @@
         "id": 390,
         "vn_name": "Biến Đổi Bất Ổn",
         "en_name": "Unstable Transmutation",
+        "desc": ""
+    },
+    {
+        "id": 2157,
+        "vn_name": "Nâng Cấp Vũ Điệu Tử Thần",
+        "en_name": "Upgrade Death's Dance",
         "desc": ""
     },
     {
