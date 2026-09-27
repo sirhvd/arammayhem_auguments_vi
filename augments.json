@@ -1411,13 +1411,13 @@
     },
     {
         "id": 1151,
-        "vn_name": "Bánh Mì & Phô-mai",
+        "vn_name": "Bánh Mỳ & Phô-mai",
         "en_name": "Bread and Cheese",
         "desc": ""
     },
     {
         "id": 1150,
-        "vn_name": "Bánh Mì & Mứt",
+        "vn_name": "Bánh Mỳ & Mứt",
         "en_name": "Bread And Jam",
         "desc": ""
     },
@@ -2466,6 +2466,12 @@
         "desc": ""
     },
     {
+        "id": 396,
+        "vn_name": "Lái Buôn Tử Thần",
+        "en_name": "Death Dealer",
+        "desc": ""
+    },
+    {
         "id": 383,
         "vn_name": "Ma Trảo",
         "en_name": "Demonic Clasp",
@@ -2619,6 +2625,12 @@
         "id": 1335,
         "vn_name": "Bào Vàng",
         "en_name": "Goldrend",
+        "desc": ""
+    },
+    {
+        "id": 397,
+        "vn_name": "Máu Chiến Trong Người",
+        "en_name": "Got That Dog In Em",
         "desc": ""
     },
     {
